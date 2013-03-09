@@ -135,5 +135,78 @@
         - deszcz
         - śnieg
         - krupy lekkie i ciężkie
+            - lekki nie-śnieg, niewielki opad przy słonecznej pogodzie i
+              temperaturze lekko na minusie, z cumulusów po skończeniu
+              noszenia; kasza mana ;)
+            - w krupach ciężkich jest zawarta większa ilość wody
+            - odbijają się od chodnika
         - grad
         - igły lodowe
+            - resublimacja - przejście ze stanu gazowego w stan stały z
+              pominięciem fazy ciekłej
+- Chmury
+    - Przyczyną tworzenia się chmur jest spadek temperatury powietrza,
+      powodujący kondensację pary wodnej na wszystkich poziomach troposfery
+    - Klasyfikacja chmur
+    (piętro) | (rodzaj [nazwa łacińska/nazwa polska]) | (skrót) | (wysokość w km
+                                                                   [dolna / górna granica])
+
+    Wysokie | Cirrus / pierzaste | Ci | 7-10 / 13
+    Wysokie | Cirrocumulus / Pierzaste kłębiaste | Cc | 6-8 / 13
+    Wysokie | Cirrostratus / Pierzaste warstwowe | Cs | 7-8 / 13
+    Średnie | Altocumulus / Średnie kłębiaste | Ac | 2.5-5 / 6
+    Średnie | Altostratus / Średnie warstwowe | As | 2.5-5 / 6
+    Niskie | Nimbostratus / Warstwowo deszczowa | Ns | 0.1-2 / 6-8
+    Niskie | Stratocumulus / Warstwowo kłębiasta | Sc | 0.2-2.5 / 2-5
+    Niskie | Stratus / Warstwowe | St | 0.05-0.6 | 1-2
+    O bud. pionowej | Cumulus / kłębiaste | Cu | 0.3-2.5 / 6-8
+    o bud. pionowej | Cumulonimbus / kłębiaste deszczowe | Cb | 0.6-2 / 8-12
+- Depesze meteorologiczne
+    - ustalony format depeszy
+    - Linie na mapie łączące punkty o jednakowym ciśnieniu nazywamy izobarami.
+        - W lotnictwie izobary wykreśla się co 5 hPa
+        - Wyż = Antycyklon (w komunikatach W/H)
+            - wiatr wieje na zewnątrz od wyżu, zgodnie z ruchem wskazówek zegara
+        - Niż = Cyklon (w komunikatach N/L)
+            - wiatr wieje przeciwnie do ruchu wskazówek zegara z odchyłką do
+              wewnątrz
+        - Rys. 20 - meteorologiczne symbole kierunku i siły wiatru
+    - Węzeł
+        - KT - knot
+        - 1 mila morska na godzinę =  1852 m/h
+    - Siodło
+        - między wyżami i niżami
+        - oś rozejścia
+        - oś ściskana
+    - Klin
+        - wyżowe izobary wchodzą w niżowe
+    - Zatoka
+        - niżowe izobary wchodzą w wyżowe
+        - Rys. 20B
+- Główne powierzchnie izobaryczne (niezależnie od izobar) 
+    (gł. pow. izob. hPa) / (wysokość w km)
+    - 1000 / -
+    - 850 / 1.5
+    - 700 / 3
+    - 500 / 5.5
+    - 300 / 9
+    - 100 / 16
+    - Dla gł. pow. izobarycznych są opracowywane prognozy wiatru i
+      temperatury.
+- Izohipsy są to linie jednakowych wysokości zalegania określonych
+  powierzchni izobarycznych.
+- Stopień barometryczny - jest to grubość warstwy powietrza, której
+  ciśnienie zmienia się o 1 hPa
+    - (delta) h / 1 hPa = ok. 8 m / 1 hPa
+    - jest to ważne do wysokości ok. 1 km
+        - przy 3 km - 11-12 m na 1 hPa
+        - przy 5 km - 14-15 m na 1 hPa
+        - przy 9 km - 20 m na 1 hPa
+        - przy 16 km - ok. 70 m na 1 hPa
+- Ciśnienie wraz ze wzrostem wysokości maleje w sposób hiperboliczny.
+
+- TODO Ściągnąć komunikaty meteo (Gamet 4, significant)
+
+- Symbole z Significant
+    - obczaić
+    - awiacja.imgw.pl

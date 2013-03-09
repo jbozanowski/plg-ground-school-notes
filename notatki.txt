@@ -1,3 +1,4 @@
 OGÓLNE NOTATKI
     - nakolannik.pl
         - większość materiałów z kursu
+        - błąd z sublimacją i resublimacją!
