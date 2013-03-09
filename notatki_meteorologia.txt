@@ -1,0 +1,139 @@
+- p. Henryk Rup
+
+- Warstwy ziemi
+    - litosfera
+        - geologia
+    - hydrosfera
+        - hydrologia
+    - atmosfera
+        - meteorologia
+- Budowa atmosfery
+    - Atmosfera: Fizyczną mieszaniną gazów chemicznie na siebie nie
+      działających.
+    - Procentowy skład atmosfery (nie trzeba znać dokładnie):
+        - Azot: 78.09%
+        - Tlen: 20.95%
+        - Argon: 0.93%
+        - Dwutlenek węgla: ok. 0.3%
+        - śladowe ilości innych gazów szlachetnych i innych:
+            - krypton, ksenon, neon, hel, jod, ozon, amoniak
+    - Ciężar 1 litra powietrza bez pary wodnej i CO2 w warunkach atmosfery
+      wzorcowej wynosi 1.2928 g
+    - Szerokość geograficzna (definicja)
+- Pionowy zasięg atmosfery
+    - (od dołu):
+    - Troposfera
+        - górna granica
+            - nad biegunami
+                - latem 10 km
+                - zimą 8 km
+            - nad równikiem
+                - latem 18 km
+                - zimą 16 km
+            - w strefie umiarkowanej
+                - latem 12 km
+                - zimą 10 km
+        - Temperatura spada średnio o 0.65 C na każde 100 m i na górnej
+          granicy wynosi -56.2 C
+        - Wiatry wieją przeważnie zachodnie (z zachodu na wschód)
+    - Stratosfera
+        - górna granica ok. 55 km (50-55)
+        - między troposferą i stratosferą występuje warstwa przejściowa
+          zwana tropopauzą
+        - na wysokości 15-50 km zalega ozonosfera
+    - Mezosfera
+        - górna granica 85 km
+    - Termosfera
+        - górna granica ok. 600 km
+    - Egzosfera
+        - górna granica ok. 800 km
+
+    - Pomiędzy warstwami występują warstwy przejściowe (<warstwa niższa>pauza)
+- Podstawowe parametry atmosfery
+    - Ciśnienie
+        - p
+        - Ciśnieniem atmosferycznym nazywamy siłę jaką wywiera ciężar słupa
+          powietrza do górnej granicy atmosfery na jednostkę powierzchni
+          ziemi
+        - Ciśnienie mierzymy wysokością słupa rtęci w barometrze 
+        - Barometr z urządzeniem samopiszącym to barograf
+        - Ciśnienie normowe 760 mmHg = 1013.2 mb (milibar) = 1013.2 hPa
+          = 29.92 inHg
+    - Temperatura
+        - T (nie zawsze)
+        - Przeliczanie na/z stopnie Fahnrenheita:
+            - tC = 5/9 * (tF - 32)
+            - tF = 9/5 * (tC + 32)
+        - Przeliczanie na/z Kelvina:
+            - tK = tC + 273
+    - Gęstość
+        - (ro)
+        - Stosunek masy powietrza do jego objętości - m/v
+        - kg/m^3 
+- Zmiany temperatury powietrza wraz ze zmianą wysokości bez wymiany ciepła
+  ze środowiskiem otaczającym nazywamy adiabatyczną.
+- Przy spadku temperatury o 1 stopień C na 100 m przemiana jest
+  suchoadiabatyczna.
+- Przy spadku temperatury o 0.5 (generalnie poniżej 1) stopnia C na 100 m
+  przemiana jest wilgotnoadiabatyczna.
+- Wielkość zmiany temperatury powietrza ze zmianą wysokości o 100 m
+  nazywamy pionowym gradientem temperatury.
+    - a więc w troposferze pionowy gradient temperatury wynosi 0.65 stopnia C.
+- Warstwę powietrza, której temperatura wraz ze wzrostem wysokości jest
+  stała nazywamy izotermią.
+- Warstwę powietrza, której temperatura wraz ze wzrostem wysokości rośnie
+  nazywamy inwersją.
+- Rodzaje inwersji:
+    - inwersje dolne
+        - radiacyjne (z wypromieniowania)
+        - adwekcyjne (napływowe)
+    - inwersje górne
+        - osiadania (najbardziej dotyczy szybownictwa, TODO)
+        - turbulencyjne
+        - frontowe
+- Rozróżniamy trzy rodzaje równowagi adiabatycznej atmosfery
+    - Powietrze suche
+        - równowaga stała (gamma) < 1 stopień C na 100 m
+        - równowaga chwiejna (gamma) > 1 stopień C na 100 m
+        - równowaga obojętna (gamma) = 1 stopień C na 100 m
+    - Powietrze wilgotne
+        - równowaga stała (gamma) < 0.55 stopnia C na 100 m
+        - równowaga chwiejna (gamma) > 0.55 stopnia C na 100 m
+        - równowaga obojętna (gamma) = 0.55 stopnia C na 100 m
+- Woda w atmosferze występuje w 3 stanach skupienia:
+    - gazowym - jako para wodna
+    - ciekłym - chmury kropelkowe, mgła, deszcz
+    - stałym - chmury lodowee, śnieg, grad
+- Wilgotność
+    - Ilość pary wodnej zawartej w jednostce objętości powietrza.
+    - Rozróżniamy wilgotności:
+        - Wilgotność względna
+            - Stosunek jest to stosunek ilości pary wodnej zawartej w
+              objętności powietrza do ilości, która to powietrze nasyci w danej
+              temperaturze razy sto i wynik otrzymujemy w procentach.
+        - Wilgotność bezwzględna
+            - Gęstość pary wodnej wyrażona w (kilo)gramach na metr sześciennych.
+        - Wilgotność właściwa
+            - Ilość pary wodnej w gramach w 1 kg powietrza.
+    - Ze wzrostem temperatury maksymalna ilość pary wodnej wzrasta a ze
+      spadkiem maleje i dlatego następuje:
+        - kondensacja pary wodnej, która jest przejściem ze stanu gazowego w
+          płynny
+        - aby doszło do skroplenia pary wodnej, muszą być spełnione warunki:
+            - temperatura musi spaść minimum do temperatury punktu rosy
+            - w powietrzu muszą znajdować jądra kondensacji
+    - Kondensacja pary wodnej przy powierzchni ziemi:
+        - rosa
+        - szron
+            - zamarznięta rosa
+        - szadź
+            - zamarznięta mgła
+        - gołoledź
+    - Produkty kondensacji pary wodnej w swobodnej atmosferze
+        - mgły
+        - mrzawka
+        - deszcz
+        - śnieg
+        - krupy lekkie i ciężkie
+        - grad
+        - igły lodowe
