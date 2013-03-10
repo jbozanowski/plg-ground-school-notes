@@ -205,8 +205,135 @@
         - przy 16 km - ok. 70 m na 1 hPa
 - Ciśnienie wraz ze wzrostem wysokości maleje w sposób hiperboliczny.
 
-- TODO Ściągnąć komunikaty meteo (Gamet 4, significant)
-
 - Symbole z Significant
     - obczaić
     - awiacja.imgw.pl
+- Wiatr
+    - Przemieszczanie się powietrza względem powierzchni ziemi w kierunku
+      pionowym nazywamy wiatrem. Przyczyną jest nierównomierny rozkład
+      ciśnienia na kuli ziemskiej, który z kolei uwarunkowany jest rozkładem
+      temperatury. Charakterystyczne cechy to kierunek i prędkość.
+    - Meteorologiczny kierunek wiatru to *skąd* wiatr wieje. Można go określić
+      podając kąt, jaki tworzy kierunek wiatru z południkiem danego miejsca.
+    - m/s -> km/h: przemnożyć przez 3.6 albo (metoda wojskowa) przez 4 i
+      odjąć 10%.
+    - Wiatr, który charakteryzują nagłe zmiany prędkości i kierunku nazywamy
+      porywistym. Jeżeli porywistosć jest bardzo duża, to mówimy o wietrze
+      szkwałowym. Wiatr w szkwale może osiągać 20-30 m/s. Wiatry szkwałowe
+      często towarzyszą burzom.
+    - Linie na mapie łączące punkty o jednakowej prędkości wiatru nazywamy
+      izopletami.
+    - Siły działające na wiatr
+        - Siła gradientu barycznego jest bezpośrednią siłą, która
+          zapoczątkowuje ruch mas powietrza.
+            - Rys. 22
+            - G
+        - Siła Coriolisa
+            - na półkuli północnej odchylenie w prawo
+            - TODO doczytać
+        - Siła odśrodkowa
+            - zależy od prędkości i promienia
+        - Tarcie
+            - Wewnętrzne
+                - niewielka siła
+                - zależy od lepkości
+            - Zewnę†rzne
+                - zależy od rzeźby terenu
+        - Wszystkie siły: Rys. 23
+    - Wiatry lokalne
+        - Halny (w Alpach: Fen)
+        - Bryza morska
+        - Wiatr gór i dolin, tzw. bryza górska
+    - Masy powietrza
+        - Powietrze arktycznomorskie (PAm)
+            - źródło pochodzenia: Grenlandia i Spitzbergen
+        - Powietrze arktycznokontynentalne (PAk)
+            - źródło: Morze Barentsa
+        - Powietrze polarnomorskie (PPm)
+            - źródło: północny Atlantyk
+        - Powietrze polarnokontynentalne (PPk)
+            - źródło: obszar Syberii
+        - Powietrze zwrotnikowomorskie (PZm)
+            - źródło: rejon Azorów, Atlantyk
+        - Powietrze zwrotnikowokontynentalne (PZk)
+            - źródło: rejon Bliskiego Wschodu
+    - Fronty
+        - ksero
+- Mgły
+    - Zamgleniem nazywamy kondensację pary wodnej w przygruntowej warstwie
+      powietrza zmniejszającą widzialność do 1 km.
+    - Mgłą nazywamy zjawisko kondensacji pary wodnej, gdy tworzą się drobne
+      kropelki wody lub kryształki lodu zawieszone w powietrzu. Widzialność
+      poniżej 1 km.
+    - Mgła powstaje gdy temperatura powietrza w przygruntowej warstwie w skutek
+      ochłodzenia od podłoża obniży się do temperatury punktu rosy. 
+    - Typy mgieł:
+        - Radiacyjne (z wypromieniowania)
+        - Adwekcyjne (napływowe)
+        - Adwekcyjno-radiacyjne
+        - Z wyparowania
+        - Frontowe
+- Oblodzenie
+    - Oblodzeniem nazywamy tworzenie się powłoki lodowej na powierzchni
+      szybowca. Aby powstało oblodzenie w powietrzu musi znajdować się duża
+      ilość skondensowanej wody lub pary wodnej, przy czym temperatura jest
+      poniżej 0 stopni. Przechłodzone krople wody utrzymują się w stanie
+      ciekłym w temperaturze do -20 stopni C, a zdarza się, że i do -40 stopni
+      C.
+    - Główną przyczyną oblodzenia jest zamarzanie przechłodzonych kropel po
+      zderzeniu z szybowcem.
+    - Rodzaje oblodzenia:
+        - (Rys. 23)
+        - Profilowe
+            - Tworzy się w temperaturze poniżej -20 stopni C i niezbyt dużej
+              wodności chmur. Lód nie zmienia profilu, ale zwiększa ciężar i
+              może zablokować stery, co jest bardzo niebezpieczne.
+        - Bryłowate
+            - Tworzy się podczas lotu z niewielką prędkością w chmurach o dużej
+              wodności przy temperaturze od -5 do -7 stopni C. Krople wody
+              zamarzają zanim zdążą połączyć się ze sobą, dlatego między nimi
+              pozostają pęcherzyki powietrza.
+            - Lód jest kruchy, łatwo kruszy się i odpada, ale jest bardzo
+              ciężki i szybko narasta.
+        - Szron
+            - Powstaje w wyniku resublimacji pary wodnej przy bezchmurnym
+              niebie. Grubość mała, ciężar niewielki, ale osiada również na
+              kabinie i tracimy widoczność.
+    - W sytuacji oblodzenia wykonujemy drobne ruchy sterami w celu
+      wyłamania wciąż jeszcze niewielkiej warstwy lodu.
+- Wykorzystnaie dokumentacji meteo
+    - TAF
+        - Prognoza pogody dla lotniska
+        - Czas obowiązywania: 9h
+        - Aktualizacja może być co 3h
+        - CAVOK - dobre warunki
+    - METAR
+        - Depesza z wynikami obserwacji dla potrzeb lotnictwa (z prognozą na
+          lądowanie TREND lub nie)
+    - SPECI
+        - Depesza z wynikami specjalnie wybranych obserwacji
+    - SIGMET
+        - Informacje dotyczą zjawisk, które wystąpiły lub mogą wystąpić, a
+          które mają wpływ na bezpieczeństwo lotów
+    - ATIS
+        - Służba Automatycznej Informacji Lotniskowej
+        - Nadawana jest na większych lotniskach, traktuje o organizacji ruchu
+          na lotnisku oraz o panujących warunkach meteorologicznych, w sposób
+          ciągły, a uaktualnienia oznaczane są literami A-Z. Zwykle ATIS
+          podawany jest w układzie:
+            - lotnisko
+                - miejsce, data i czas, litera kolejności
+            - wektorowanie radarowe dla podejścia wg ILS
+            - pas w użyciu
+            - poziom przejściowy
+            - informacje o pasach startowych
+            - wiatr (kierunek i prędkość)
+            - widzialność
+            - podstawa chmur i wielkość zachmurzenia
+            - temperatura i temperatura punktu rosy
+            - ciśnienie
+                - QNH - względem średniego poziomu morza
+                - QFE - ciśnienie na poziomie lotniska (wysokość względna)
+                - QNE - standardowe ciśnienie 1013.2 hPa
+            - widzialność - do 5000 m
+            - 120.45
