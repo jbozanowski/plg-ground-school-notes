@@ -179,8 +179,11 @@
               turbulizację na skrzydle od samego noska na punkcie styku)
         - Opór szczelinowy
             - na powierzchniach sterowych
+    - Środek parcia
+        - Punkt, w którym moment aerodynamiczny jest 0.
     - Doskonałość szybowca
         - stosunek siły nośnej do oporu
+        - d = Cz/Cx
     - Sposoby na zmniejszanie prędkości minimalnej/zwiększanie Cz max:
         - Klapa zwykła
             - zwiększa Cz max
@@ -194,4 +197,89 @@
         - Slot
             - powiększa (alfa) krytyczne, zwiększa Cz maximum
             - rzadko na szybowcach
-
+- Podstawowe stany lotu szybowca
+    - Lot ślizgowy
+        - Rys. 24
+    - Zakręt
+        - Rys. 25
+        - Ważna wielkość: współczynnik obciążenia (n)
+        - Chyłomierz poprzeczny
+            - wyślizg - za duża siła odśrodkowa
+                - za duża prędkość kątowa: za małe przechylenie/za dużo steru
+                  kierunku
+            - ześlizg - za mała siła odśrodkowa
+                - za duże przechylenie/za mała prędkość kątowa (za mało steru)
+        - Różnicowość lotek
+            - dla ułatwienia wykonywania zakrętu
+            - niesymetryczna praca lotek - lotka zewnętrznego skrzydła możne nawet w
+              ogóle się nie wychylać w dół, wychyla się tylko w dół lotka skrzydła
+              wewnętrznego
+                - lotka wychylająca się w dół zwiększa kąt natarcia, a więc
+                  zwiększa opór Cx
+            - stosuje się też lotki mocowane tak, że przy wychyleniu w górę,
+              lotka wsuwa swoją krawędź natarcia pod skrzydło, zwiększając opór
+              - wyrównując tym samym opór z drugim skrzydłem
+        - 
+- Obciążenia szybowca
+    - Wyciąganie z nurkowania: Rys. 26
+    - Start za wyciągarką: Rys. 27
+    - Turbulencje
+    - Rys. 28 + Rys. 29:
+        - do prędkości VA nie jesteśmy w stanie przekroczyć dopuszczalnych
+          obciążeń
+- Stateczność
+    - Rys. 30
+    - Zapasem stateczności nazywa się odległość między punktem neutralnym a
+      aktualnym położeniem środka ciężkości.
+    - Sposoby na zapewnienie stateczności w osi x
+        - odchylenie skrzydeł ku górze
+        - skos skrzydeł do tyłu
+    - Stateczność spiralna
+        - wszystkie szybowce ze względu na wielką rozpiętość skrzydła są
+          niestateczne spiralnie
+            - dysproporcja siły aerodynamicznej na wewnętrznym i zewnętrznym
+              skrzydle w zakręcie
+            - w zakręcie szybowiec trzeba podtrzymywać w zakręcie, żeby nie
+              wchodzić w spiralę
+- Lot z minimalną prędkością
+    - Przeciągnięcie statyczne
+        - Stateczny szybowiec po przekroczeniu krytycznego kąta natarcia
+          (niezbyt gwałtownie) szybowiec powróci do mniejszego kąta natarcia
+    - Odwrotne działanie lotek
+        - Przy locie z minimalną prędkością nie należy używać lotek, gdyż mogą
+          zadziałać odwrotnie (lotka opuszczana zwiększa kąt natarcia, co może
+          pogłębić przeciągnięcie skrzydła)
+        - Różnicowość działania lotek pozwala uniknąć odwrotnego działania
+          lotek
+- Korkociąg
+    - Nie jest to figura akrobacji, tylko stan lotu
+    - Korkociąg zwykły i płaski
+        - Zwykły
+            - pochylenie kadłuba do ziemi ok. 60 stopni
+            - kąt natarcia 25-30 stopni
+            - opadanie względem ziemi: 60-70 m na 1 zwitkę
+            - czas trwania zwitki 2-3s
+        - Płaski
+            - nachylenie kadłuba do ziemi 20-30 stopni
+            - kąt natarcia 60-65 stopni
+            - opadanie względem ziemi: 30-50 m na 1 zwitkę
+            - czas trwania zwitki 1.5s
+- Lot z maksymalną prędkością
+    - Rozbieżność skrętna skrzydeł
+        - możliwość ukręcenia skrzydła przez sprzężenie zwrotne przy
+          zwiększaniu kąta natarcia skrzydła przy niewystarczającej sztywności
+          skrzydła - zwiększenie kąta natarcia powoduje deformację skrzydła
+          przy zwiększaniu siły nośnej, która to deformacja powoduje dalszy
+          wzrost siły nosnej, itd. - dziś w zasadzie niemożliwe, acz Żwirko i
+          Wigura zginęli właśnie przez to
+        - zagadnienie aeroelastyczności statycznej - odkształcenia konstrukcji
+          zmieniają siły aerodynamiczne (jeśli konstrukcja jest za mało
+          sztywna)
+    - Flutter (drgania samowzbudne)
+        - Rys. 31
+        - Dodatkową przyczyną flutteru może być majtanie się lotek - skrzydło
+          opadając podczas drgań sprężystych zostawia lotkę za sobą, co
+          powoduje zmianę siły aerodynamicznej, dodatkowo dociskającej skrzydło
+          w dół
+            - Aby tego uniknąć, lotka musi być wyważona tak, aby środek obrotu
+              był za środkiem ciężkości.
