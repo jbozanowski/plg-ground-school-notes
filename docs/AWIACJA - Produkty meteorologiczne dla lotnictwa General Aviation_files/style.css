@@ -1,0 +1,627 @@
+body 
+{
+	/* background: url('../gfx/background2.png') */
+}
+
+* body, html
+{ 
+  direction : ltr; 
+  font-family : "Verdana", "Arial", "Helvetica", "sans-serif"; 
+  font-size : 12px; 
+  color : #405353; 
+  padding : 0; 
+  margin : 0; 
+	height : 100%;
+  /* width : 994px; */
+}
+
+* img 
+{ 
+  border : 0; 
+}
+
+* form 
+{ 
+  margin : 1px; 
+  padding : 1px; 
+}
+
+* form input, * form select, * form select option 
+{ 
+  border : 1px solid #151414; 
+  font-size : 12px; 
+  color : #151414; 
+  padding : 1px; 
+  margin : 2px 2px 0 0; 
+  font-family : "Verdana", "Arial", "Helvetica", "sans-serif"; 
+}
+
+a 
+{ 
+  color: #bbce00; 
+  font-weight: bold; 
+  text-decoration: none; 
+  cursor: pointer; 
+}
+
+a:link  
+{
+  font-weight : normal;
+  text-decoration : none;
+  color : navy;
+}
+
+a:visited 
+{
+  font-weight : normal;
+  text-decoration : none;
+  color : navy;
+}
+
+a:hover 
+{
+  font-weight : normal;
+  text-decoration : underline;
+  color : #d63700;
+}
+
+a.link1
+{
+  color : white;
+  font-weight : bold;
+  text-decoration : none;
+}
+
+a.link1:hover
+{
+  color : red;
+  font-weight : bold;
+  text-decoration : none;
+}
+
+a.link2
+{
+  color : black;
+  font-weight : normal;
+  text-decoration : none;
+}
+
+a.link2:hover
+{
+  color : red;
+  font-weight : normal;
+  text-decoration : none;
+}
+
+.topmenu   
+{ 
+  cursor : pointer;
+  font-family : "Verdana", arial;
+  font-size : 12px;
+  font-weight : bold;
+  color : #ffffff;
+}
+
+.topmenu2  
+{
+  cursor: pointer;
+  font-family : "Verdana", arial;
+  font-size : 11px;
+  font-weight : bold;
+  color : #416eb2;
+}
+
+.leftmenu 
+{
+  color : #525252;
+  font : 12px Verdana;
+  font-weight : bold;
+  text-align : center;
+  background-image : url('../gfx/menu/menu.png');
+  height : 25px;
+  width : 185px;
+}
+
+.leftmenulinks 
+{
+  background-image : url('../gfx/menu/menu.png');
+  color : #525252;
+  padding : 6px 0 6px 12px;
+  font : 12px Verdana;
+  line-height : 21px;
+  font-weight : normal;
+  text-align : left;
+  text-decoration : none;
+}
+
+#contentarea 
+{
+  color : #525252;
+  font : 12px Verdana;
+  font-weight : bold;
+  text-align : left;
+  width : 809px;
+  visibility : visible;
+}
+
+#bar
+{
+    height : 25px;
+}
+
+#maps0
+{
+    position : absolute;
+    background-image : url('../gfx/polska.jpg');
+    width : 760px;
+    height : 760px;
+    z-index : 0;
+}
+
+#maps1
+{
+    position : absolute;
+    background-image : url('../gfx/koordynaty.gif');
+    width : 760px;
+    height : 760px;
+    z-index : 1;
+}
+
+#maps6
+{
+    position : absolute;
+    background-image : url('../gfx/wojewodztwa.gif');
+    width : 760px;
+    height : 760px;
+    z-index : 2;
+}
+
+#maps4
+{
+    position : absolute;
+    background-image : url('../gfx/sektory_a5.gif');
+    width : 760px;
+    height : 760px;
+    z-index : 3;    
+}
+
+#maps5
+{
+    position : absolute;
+    background-image : url('../gfx/sektory_20.gif');
+    width : 760px;
+    height : 760px;
+    z-index : 4;    
+}
+
+#maps3
+{
+    position : absolute;
+    background-image : url('../gfx/lotniska_kody.gif');
+    width : 760px;
+    height : 760px;
+    z-index : 5;    
+}
+
+#maps2
+{
+    position : absolute;
+    background-image : url('../gfx/lotniska_punkty.gif');
+    width : 760px;
+    height : 760px;
+    z-index : 6;    
+}
+
+#mapsarea
+{
+    position : absolute;
+    width : 760px;
+    height : 760px;
+    z-index : 100;
+}
+
+.printtool
+{
+	font-size : 10px;
+	position : absolute;
+	cursor : pointer;  
+	/*width : 170px;*/
+	padding : 3px;
+	background-color : #dcdcdc;
+	border : 1px solid #64aada;
+	color : black;
+	text-decoration : none;
+	text-align : center;         
+	z-index : 100;
+	border-radius: 4px;  
+	-moz-border-radius: 4px;  
+	-webkit-border-radius: 4px;
+	-webkit-box-shadow: 0 1px 2px #000000;
+	-moz-box-shadow: 0 1px 2px #000000;
+	box-shadow: 0 1px 2px #000000;
+	background: #86bce3;
+	background: -webkit-gradient(linear, left top, left bottom, from(#e2eff8), to(#86bce3));
+	background: -moz-linear-gradient(top,  #e2eff8,  #86bce3);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#e2eff8', endColorstr='#86bce3');
+	font-weight:bold;
+}
+
+.printtool b
+{
+	text-align : center;
+	display:block;
+	padding:2px;
+	padding-left:20px;
+	background-image:url('../gfx/images/printer.png');
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+
+.printtool p
+{
+	margin:0px;
+	padding:0px;
+	display:block;
+	text-align:center;
+	width:170px;
+}
+
+.printtool:hover
+{
+  color : red !important;
+}
+
+.btn-show-swc
+{
+	
+	display:block;
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size : 13px;
+	text-align : center;
+	cursor : pointer;
+	
+	width : 230px;
+	margin:20px auto;
+	padding : 3px;
+	
+	border : 1px solid #64aada;
+	color : black;
+	text-decoration : none;
+	border-radius: 4px;  
+	-moz-border-radius: 4px;  
+	-webkit-border-radius: 4px;
+	
+	-webkit-box-shadow: 0 1px 2px #000000;
+	-moz-box-shadow: 0 1px 2px #000000;
+	box-shadow: 0 1px 2px #000000;
+	
+	background-color : #86bce3;
+	/*
+	background: #86bce3;
+	background: -webkit-gradient(linear, left top, left bottom, from(#e2eff8), to(#86bce3));
+	background: -moz-linear-gradient(top,  #e2eff8,  #86bce3);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#e2eff8', endColorstr='#86bce3');
+	*/
+}
+
+.btn-show-swc:hover
+{	
+	
+	text-decoration:none;
+	
+	background-color : #e2eff8;
+	/*
+	background: -webkit-gradient(linear, left top, left bottom, from(#86bce3), to(#e2eff8));
+	background: -moz-linear-gradient(top,  #86bce3, #e2eff8);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#86bce3', endColorstr='#e2eff8');
+	*/
+}
+
+#printpo
+{
+  color : #fff000;
+  position : absolute;
+  left : 508px;
+  /*
+  border:1px solid #666000;
+  background-color:#dcdcdc;
+  */
+  top : 30px;
+  width : 257px;
+  visibility : hidden;
+}
+
+#printga
+{
+  color : yellow;
+  position : absolute;
+  left : 500px;
+  top : 30px;
+  width : 257px;
+  visibility : hidden;
+}
+
+#printpp
+{
+  color : yellow;
+  position : absolute;
+  left : 500px;
+  top : 30px;
+  width : 257px;
+  visibility : hidden;
+}
+
+#stopka
+{
+  color : #525252;
+  font : 12px Verdana;
+  font-weight : bold;
+  text-align : center;
+  
+  margin : auto;
+  border-style : solid;
+  background-color : navy;
+  border-collapse : collapse;
+  border-color : navy;
+  color : white;
+  border-width : 2px; 
+}
+
+#news
+{
+  color : #525252;
+  font : 12px Verdana;
+  font-weight : bold;
+  text-align : left;
+  width : 762px;
+  margin-left:auto;
+  margin-right:auto;  
+}
+
+#newstable
+{
+  margin : auto;
+  border-style : none;
+  border-collapse : collapse;
+  border-color : navy;
+  border-width : 0;
+  width:762px;
+}
+
+.newstopcell
+{
+  margin : auto;
+  border-style : solid;
+  border-collapse : collapse;
+  border-color : navy;
+  color : white;
+  border-width : 2px;
+  padding-left: 5px;      
+}
+
+#newsbottomcell
+{
+  margin : auto;
+  border-style : solid;
+  background-color : navy;
+  border-collapse : collapse;
+  border-color : navy;
+  color : white;
+  border-width : 2px;      
+}
+
+#newscell
+{
+  color : navy;
+  margin : auto;
+  background-color : white;
+  border-collapse : collapse;      
+  font-weight : normal;
+  text-align : justify;
+  padding : 3px 5px 5px 5px;
+}
+
+#prtopcell
+{
+  margin : auto;
+  border-collapse : collapse;
+  color : white;
+  visibility : hidden;
+  height : 0;
+}
+
+#prcell
+{
+  position : relative;
+  border-collapse : collapse;     
+  visibility : hidden;
+}
+
+#infoarea
+{
+  position : relative;
+  background-color : white;
+  left : 600px;
+  top : 10px;
+  width : 100px;
+  height : 40px;
+  z-index : 50;
+  visibility : hidden;
+}
+
+.closelink
+{
+  text-align : right;
+  font-size : 10px;
+  clear : right;
+}
+
+.prbuttons
+{
+  cursor : pointer;
+  padding : 0px 5px 0px 5px;
+  background-color : #dcdcdc;
+  border : 1px solid #666000;
+  color : #000000;
+  text-decoration : none;
+}
+
+.prbuttons:hover
+{
+  color : red;
+}
+
+#stage
+{
+  height : 17px; 
+  font-size : 11px; 
+  color : navy;
+}
+
+.forecasttop
+{
+  margin : auto;
+  border-style : solid;
+  background-color : navy;
+  border-collapse : collapse;
+  border-color : navy;
+  color : white;
+  border-width : 2px;
+  padding-left: 1px;
+  width : 755px;
+}
+
+.line
+{
+  height : 2px;
+}
+
+.forecast
+{
+  margin : auto;
+  border-style : solid;
+  background-color : white;
+  border-collapse : collapse;
+  border-color : navy;
+  color : navy;
+  border-width : 2px 2px 10px 2px;
+  padding : 15px 15px 15px 15px;
+  width : 726px;
+}
+
+.newslink
+{
+  text-align : right;
+  cursor : pointer;
+  font : 10px Verdana;  
+	font-weight : bold;
+}
+
+.newslink:hover
+{
+  color : red;  
+}
+
+.checkbox, .radio 
+{
+	width : 19px;
+	height : 25px;
+	padding : 0 5px 0 0;
+	background-image : url('checkbox.png');
+	display : block;
+	clear : left;
+	float : left;
+}
+
+.radio 
+{
+	background-image : url('radio.png');
+}
+
+.redfont{
+    color:red;
+}
+
+a.redlink{
+    color:red;
+    font-weight : bold;    
+}
+
+a.redlink:hover{
+    color:red;
+    font-weight : bold;    
+}
+
+.barinfo
+{
+      
+}
+
+#nrrejon{
+	/*
+  display:inline;
+  clear:right;
+  */
+}
+
+#filetime{
+    position:absolute;
+    float:right;
+    top:7px;
+    left:630px;
+}
+
+#prdata{
+    padding-top:5px;
+}
+
+.archtable{
+    text-align:center;
+}
+
+.archbody{
+    font-size:8pt;
+}
+
+.newsdate{
+    font-size:8pt;
+    color:gray;
+    text-align:right;
+}
+
+#wykres{
+  position : absolute;
+  color : #000000;
+  background-color:#FFFFFF;
+  padding:4px;
+  border-width:1px;
+  border-style:solid;
+  font : 12px Verdana;
+  font-weight : normal;
+  text-align : left;
+/*  width : 250px;  */
+/*  height : 150px; */
+  visibility : hidden;
+  z-index : 110;
+}
+
+#but{
+  font-size:10px;
+  font-family:Arial,sans-serif;
+  background-color:#F0F0F0;
+  border-radius: 5px 5px 5px 5px;
+  border-style:none;
+}
+
+button{
+  font-size:13px;
+  font-family:Arial,sans-serif;
+  background-color:#;
+  border-radius: 4px 4px 4px 4px;
+  border-style:none;
+}
+
+
+
+

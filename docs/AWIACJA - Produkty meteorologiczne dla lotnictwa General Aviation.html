@@ -1,0 +1,904 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0049)http://awiacja.imgw.pl/index.php?product=swc-opis -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>AWIACJA - Produkty meteorologiczne dla lotnictwa General Aviation</title>
+
+
+<meta http-equiv="Content-Language" content="pl">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="Refresh" content="1800">
+
+<meta name="robots" content="index, follow">
+<meta name="copyright" content="©IMGW">
+
+<meta name="description" content="Awiacja, IMGW, Produkty meteorologiczne dla lotnictwa, Prognoza pogody dla lotników, szybowników, ostrzeżenia i zagrożenia, GAMET, METAR, TAF, SIGMET, AIRMET, SWC, Significant, Mapy wiatrowe">
+
+<link rel="shortcut icon" href="http://awiacja.imgw.pl/favicon.ico" type="image/x-icon">
+
+<link rel="stylesheet" type="text/css" href="./AWIACJA - Produkty meteorologiczne dla lotnictwa General Aviation_files/screen.css" media="screen, projection">
+<link rel="stylesheet" type="text/css" href="./AWIACJA - Produkty meteorologiczne dla lotnictwa General Aviation_files/print.css" media="print">
+<link rel="stylesheet" type="text/css" href="./AWIACJA - Produkty meteorologiczne dla lotnictwa General Aviation_files/style.css" media="screen">
+<link rel="stylesheet" type="text/css" href="./AWIACJA - Produkty meteorologiczne dla lotnictwa General Aviation_files/default_2.css" media="screen">
+
+<link rel="stylesheet" type="text/css" href="./AWIACJA - Produkty meteorologiczne dla lotnictwa General Aviation_files/tooltip.css" media="screen">
+<script type="text/javascript" language="javascript" src="./AWIACJA - Produkty meteorologiczne dla lotnictwa General Aviation_files/tooltip.js"></script>
+
+<script type="text/javascript" language="javascript" src="./AWIACJA - Produkty meteorologiczne dla lotnictwa General Aviation_files/lytebox.js"></script>
+<link rel="stylesheet" type="text/css" href="./AWIACJA - Produkty meteorologiczne dla lotnictwa General Aviation_files/lytebox.css" media="screen">
+<!--[if lt IE 8]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen, projection" /><![endif]-->
+
+
+<script type="text/javascript">
+<!--
+   flightdataFAPL=new Array();
+   flightdataGAMET=new Array();
+   FAPLtime=new Array();
+   GAMETtime=new Array();
+
+   var area=-1;
+   var areachoice="";
+   var pmenu="";
+
+//   var newsmore='<div class="newslink" onclick="shownews()"><img src="gfx/images/btn-readmore.png" alt="czytaj całość" ><\/div>';
+//   var newsless='<div class="newslink" onclick="hidenews()"><img src="gfx/images/btn-readmore-close.png" alt="zwiń" ><\/div>';
+
+	var newsmore='<span style="float: right;" ><a id="readmore-link" onclick="shownews()" ><span style="color:#ffd2ce">pokaż więcej »<\/span><\/a><\/span><br style="clear:both">';
+	var newsless='<span style="float: right;" ><a id="readmore-link" onclick="hidenews()" ><span style="color:#fff000">zwiń «<\/span><\/a><\/span><br style="clear:both">';
+	
+  pmenu='Significant - opis';shortnews='<div class="newsdate"> ostatnia aktualizacja: 05.03.2013 14:05<\/div>Szanowni Państwo, uprzejmie informujemy, iż od dnia 27 listopada 2012 r. na stronie awiacja.imgw.pl w lokalizacji „PRODUKTY” dostępne są dwie nowe zakładki, w których znajdują się depesze TAF i METAR opracowywane przez Służbę Hydrologiczno- Meteorologiczną Sił Zbrojnych RP.'+newsmore;news='Szanowni Państwo, uprzejmie informujemy, iż od dnia 27 listopada 2012 r. na stronie awiacja.imgw.pl w lokalizacji „PRODUKTY” dostępne są dwie nowe zakładki, w których znajdują się depesze TAF i METAR opracowywane przez Służbę Hydrologiczno- Meteorologiczną Sił Zbrojnych RP.<br><br>Szanowni Państwo, uprzejmie zawiadamiamy, iż z dniem 1 sierpnia br. Centralne Biuro Prognoz Lotniczych-Meteorologiczne Biuro Nadzoru zmienia swoją lokalizację z Portu Lotniczego Warszawa im. Fryderyka Chopina na Ośrodek Główny IMGW-PIB w Warszawie. W związku z powyższym do Państwa dyspozycji uruchomiona została dodatkowa linia telefoniczna nr (22) 569 45 92, która zastąpi dotychczas wykorzystywaną linię nr (22) 650 44 85. Jednocześnie zawiadamiamy, iż numer telefonu (22) 846 06 82, numer faksu (22) 846 3818 oraz nr tel. kom. 503 122 805 nie ulegają zmianie. Numer telefonu (22) 650 44 86  zostaje wycofany.<br><br>Wychodząc naprzeciw oczekiwaniom i rosnącym potrzebom użytkowników polskiej przestrzeni powietrznej oraz w celu ułatwienia dostępu do informacji meteorologicznych za pośrednictwem mobilnych urządzeń telekomunikacyjnych mamy przyjemność poinformować, że została uruchomiona możliwość testowego pobierania danych radarowych za pomocą telefonów komórkowych. <br><br>Nowoopracowany produkt został zobrazowany według podziału sektorowego Polski aby był zsynchronizowany z innymi dostępnymi produktami.<br><br>Jak dostać się do danych radarowych z telefonu komórkowego?<br><br>Wystarczy, przy połączeniu z Internetem za pośrednictwem telefonu komórkowego, podać następujące adresy zakładek:<br><br>m.pogodynka.pl/radarlot<br>lub<br>m.latanie.pogodynka.pl<br><br>Za tę usługę IMGW nie pobiera żadnych opłat.<br><br>Wszelkie dane zamieszczone w serwisie internetowym m.pogodynka.pl/radarlot oraz m.latanie.pogodynka.pl chronione są przepisami ustawy o prawie autorskim i stanowią własność IMGW  PIB.<br><br><br><br><br><br><br><br><br>'+newsless;flightdataFAPL[0]='037<br>FEPL01 OKEC 260600<br>1. KOMUNIKAT SZYBOWCOWY NA OBSZAR 01 - PROGNOZA TESTOWA<br>2. WAZNY OD 06.00 DO 16.00 UTC DNIA 26.09.2011<br>3. SYTUACJA BARYCZNA:WYZ ZNAD UKRAINY<br>4. WIATR PRZYZIEMNY:VRB 03KT<br>5. GRADIENT TERMICZNY:<br>  NA GODZINE 06.00 UTC: 0,2st.C/100 M<br>  NA GODZINE 12.00 UTC: 0,6st.C/100 M<br>6. CHMURY CU (PODSTAWA M NAD POZIOM GRUNTU): PO GODZ. 09.00 UTC 1-4/8<br>1000-1500<br>7. ISTOTNE INNE CHMURY: 3-6/8 CI POW.5000 M<br>8. INWERSJA: ZANIKAJACA PRZYZIEMNA<br>9. TERMIKA: WYPRACOWANA CUMULUSOWA<br>10. NOSZENIA: DO GODZ.09.00 UTC BRAK, NASTEPNIE SLABE<br>11. UWAGI: DO GODZ. 09.00 UTC BRAK WARUNKOW DO LOTOW SZYBOWCOWYCH NA<br>TERMICE<br>12. OPRACOWAL DYZURNY SYNOPTYK: LEONARD BRZOZOWY<br>';FAPLtime[0]='07:35 26.09.2011';flightdataFAPL[1]='038<br>FEPL02 OKEC 260600<br>1. KOMUNIKAT SZYBOWCOWY NA OBSZAR 02 - PROGNOZA TESTOWA<br>2. WAZNY OD 06.00 DO 16.00 UTC DNIA 26.09.2011<br>3. SYTUACJA BARYCZNA:WYZ ZNAD UKRAINY<br>4. WIATR PRZYZIEMNY:VRB 03KT<br>5. GRADIENT TERMICZNY:<br>  NA GODZINE 06.00 UTC: 0,2st.C/100 M<br>  NA GODZINE 12.00 UTC: 0,6st.C/100 M<br>6. CHMURY CU (PODSTAWA M NAD POZIOM GRUNTU): PO GODZ. 09.00 UTC 1-3/8<br>1000-1500<br>7. ISTOTNE INNE CHMURY: 3-6/8 CI POW.5000 M<br>8. INWERSJA: ZANIKAJACA PRZYZIEMNA<br>9. TERMIKA: WYPRACOWANA CUMULUSOWA<br>10. NOSZENIA: DO GODZ.09.00 UTC BRAK, NASTEPNIE SLABE<br>11. UWAGI: DO GODZ. 09.00 UTC BRAK WARUNKOW DO LOTOW SZYBOWCOWYCH NA<br>TERMICE<br>12. OPRACOWAL DYZURNY SYNOPTYK: LEONARD BRZOZOWY<br>';FAPLtime[1]='07:36 26.09.2011';flightdataFAPL[2]='039<br>FEPL03 OKEC 260600<br>1. KOMUNIKAT SZYBOWCOWY NA OBSZAR 03 - PROGNOZA TESTOWA<br>2. WAZNY OD 06.00 DO 16.00 UTC DNIA 26.09.2011<br>3. SYTUACJA BARYCZNA:WYZ ZNAD UKRAINY<br>4. WIATR PRZYZIEMNY:VRB 02KT<br>5. GRADIENT TERMICZNY:<br>  NA GODZINE 06.00 UTC: 0,1st.C/100 M<br>  NA GODZINE 12.00 UTC: 0,6st.C/100 M<br>6. CHMURY CU (PODSTAWA M NAD POZIOM GRUNTU): PO GODZ. 09.00 UTC 1-4/8<br>1000-1500<br>7. ISTOTNE INNE CHMURY: 3-6/8 CI POW.5000 M<br>8. INWERSJA: ZANIKAJACA PRZYZIEMNA<br>9. TERMIKA: WYPRACOWANA CUMULUSOWA<br>10. NOSZENIA: DO GODZ.09.00-10.00 UTC BRAK, NASTEPNIE SLABE<br>11. UWAGI: DO GODZ. 09.00-10.00 UTC BRAK WARUNKOW DO LOTOW<br>SZYBOWCOWYCH NA TERMICE<br>12. OPRACOWAL DYZURNY SYNOPTYK: LEONARD BRZOZOWY<br>';FAPLtime[2]='07:39 26.09.2011';flightdataFAPL[3]='020<br>FEPL04 WROC 260600<br>1. KOMUNIKAT SZYBOWCOWY NA OBSZAR 04<br>2. WAZNY OD 06.00 DO 16.00 UTC DNIA 26.09.2011<br>3. SYTUACJA BARYCZNA: WYZ Z CENTRUM NAD UKRAINA<br>4. WIATR PRZYZIEMNY: POCZATKOWO ZMIENNY, 1-3 KT<br>   POZNIEJ 200-240, 3-6 KT<br>5. GRADIENT TERMICZNY:<br>  NA GODZINE 06.00 UTC: 0,5-0,7st.C/100M POWYZEJ PRZYZIEMNEJ INWERSJI<br>  NA GODZINE 12.00 UTC: 0,7-0,9st.C/100M<br>6. CHMURY CU (PODSTAWA NAD POZIOM GRUNTU): BRAK<br>7. ISTOTNE INNE CHMURY: BRAK<br>8. INWERSJA: RANO PRZYZIEMNA, ZANIKAJACA; SLABA OSIADANIA<br>   W WARSTWIE 1200/1500M<br>9. TERMIKA: WYPRACOWANA BEZCHMURNA<br>10. NOSZENIA: SLABE<br>11. UWAGI: BRAK<br>12. OPRACOWAL DYZURNY SYNOPTYK: PIOTR MANCZAK<br>';FAPLtime[3]='06:42 26.09.2011';flightdataFAPL[4]='021<br>FEPL05 WROC 260600<br>1. KOMUNIKAT SZYBOWCOWY NA OBSZAR 05<br>2. WAZNY OD 06.00 DO 16.00 UTC DNIA 26.09.2011<br>3. SYTUACJA BARYCZNA: WYZ Z CENTRUM NAD UKRAINA<br>4. WIATR PRZYZIEMNY: POCZATKOWO ZMIENNY, 1-3 KT<br>   POZNIEJ 200-240, 3-6 KT<br>5. GRADIENT TERMICZNY:<br>  NA GODZINE 06.00 UTC: 0,5-0,7st.C/100M POWYZEJ PRZYZIEMNEJ INWERSJI<br>  NA GODZINE 12.00 UTC: 0,7-0,9st.C/100M<br>6. CHMURY CU (PODSTAWA NAD POZIOM GRUNTU): BRAK<br>7. ISTOTNE INNE CHMURY: BRAK<br>8. INWERSJA: RANO PRZYZIEMNA, ZANIKAJACA; SLABA OSIADANIA<br>   W WARSTWIE 1200/1500M<br>9. TERMIKA: WYPRACOWANA BEZCHMURNA<br>10. NOSZENIA: SLABE<br>11. UWAGI: BRAK<br>12. OPRACOWAL DYZURNY SYNOPTYK: PIOTR MANCZAK<br>';FAPLtime[4]='06:44 26.09.2011';flightdataFAPL[5]='023<br>FEPL06 WROC 260600<br>1. KOMUNIKAT SZYBOWCOWY NA OBSZAR 06<br>2. WAZNY OD 06.00 DO 16.00 UTC DNIA 26.09.2011<br>3. SYTUACJA BARYCZNA: WYZ Z CENTRUM NAD UKRAINA<br>4. WIATR PRZYZIEMNY: ZMIENNY, 1-3 KT<br>5. GRADIENT TERMICZNY:<br>  NA GODZINE 06.00 UTC: 0,5-0,7st.C/100M POWYZEJ PRZYZIEMNEJ INWERSJI<br>  NA GODZINE 12.00 UTC: 0,7-0,9st.C/100M<br>6. CHMURY CU (PODSTAWA NAD POZIOM GRUNTU): PO GODZ. 10 UTC<br>   LOKALNIE 1-2/8 CU O PODSTAWACH 1000-1200M<br>7. ISTOTNE INNE CHMURY: BRAK<br>8. INWERSJA: RANO PRZYZIEMNA, ZANIKAJACA; SLABA OSIADANIA<br>   W WARSTWIE 1300/1600M<br>9. TERMIKA: WYPRACOWANA BEZCHMURNA, LOKALNIE CUMULUSOWA<br>10. NOSZENIA: SLABE<br>11. UWAGI: BRAK<br>12. OPRACOWAL DYZURNY SYNOPTYK: PIOTR MANCZAK<br>';FAPLtime[5]='06:48 26.09.2011';flightdataFAPL[6]='024<br>FEPL07 WROC 260600<br>1. KOMUNIKAT SZYBOWCOWY NA OBSZAR 07<br>2. WAZNY OD 06.00 DO 16.00 UTC DNIA 26.09.2011<br>3. SYTUACJA BARYCZNA: WYZ Z CENTRUM NAD UKRAINA<br>4. WIATR PRZYZIEMNY: ZMIENNY, 1-3 KT<br>5. GRADIENT TERMICZNY:<br>  NA GODZINE 06.00 UTC: 0,5-0,7st.C/100M POWYZEJ PRZYZIEMNEJ INWERSJI<br>  NA GODZINE 12.00 UTC: 0,7-0,9st.C/100M<br>6. CHMURY CU (PODSTAWA NAD POZIOM GRUNTU): PO GODZ. 10 UTC<br>   LOKALNIE 1-2/8 CU O PODSTAWACH 1000-1200M<br>7. ISTOTNE INNE CHMURY: BRAK<br>8. INWERSJA: RANO PRZYZIEMNA, ZANIKAJACA; SLABA OSIADANIA<br>   W WARSTWIE 1300/1600M<br>9. TERMIKA: WYPRACOWANA BEZCHMURNA, LOKALNIE CUMULUSOWA<br>10. NOSZENIA: SLABE<br>11. UWAGI: BRAK<br>12. OPRACOWAL DYZURNY SYNOPTYK: PIOTR MANCZAK<br>';FAPLtime[6]='06:48 26.09.2011';flightdataFAPL[7]='025<br>FEPL08 WROC 260600<br>1. KOMUNIKAT SZYBOWCOWY NA OBSZAR 08<br>2. WAZNY OD 06.00 DO 16.00 UTC DNIA 26.09.2011<br>3. SYTUACJA BARYCZNA: WYZ Z CENTRUM NAD UKRAINA<br>4. WIATR PRZYZIEMNY: ZMIENNY, 1-3 KT<br>5. GRADIENT TERMICZNY:<br>  NA GODZINE 06.00 UTC: 0,5-0,7st.C/100M POWYZEJ PRZYZIEMNEJ INWERSJI<br>  NA GODZINE 12.00 UTC: 0,7-0,9st.C/100M<br>6. CHMURY CU (PODSTAWA NAD POZIOM GRUNTU): BRAK<br>7. ISTOTNE INNE CHMURY: BRAK<br>8. INWERSJA: RANO PRZYZIEMNA, ZANIKAJACA; SLABA OSIADANIA<br>   W WARSTWIE 1300/1600M<br>9. TERMIKA: WYPRACOWANA BEZCHMURNA<br>10. NOSZENIA: SLABE<br>11. UWAGI: BRAK<br>12. OPRACOWAL DYZURNY SYNOPTYK: PIOTR MANCZAK<br>';FAPLtime[7]='06:51 26.09.2011';flightdataFAPL[8]='041<br>FEPL09 OKEC 260600<br>1. KOMUNIKAT SZYBOWCOWY NA OBSZAR 09 - PROGNOZA TESTOWA<br>2. WAZNY OD 06.00 DO 16.00 UTC DNIA 26.09.2011<br>3. SYTUACJA BARYCZNA:WYZ ZNAD UKRAINY<br>4. WIATR PRZYZIEMNY:VRB 02KT<br>5. GRADIENT TERMICZNY:<br>  NA GODZINE 06.00 UTC: 0,1st.C/100 M<br>  NA GODZINE 12.00 UTC: 0,7st.C/100 M<br>6. CHMURY CU (PODSTAWA M NAD POZIOM GRUNTU): PO GODZ. 09.00 UTC 1-4/8<br>1000-1500<br>7. ISTOTNE INNE CHMURY: 2-5/8 CI POW.5000 M<br>8. INWERSJA: ZANIKAJACA PRZYZIEMNA<br>9. TERMIKA: WYPRACOWANA CUMULUSOWA<br>10. NOSZENIA: DO GODZ.09.00-10.00 UTC BRAK, NASTEPNIE SLABE<br>11. UWAGI: DO GODZ. 09.00-10.00 UTC BRAK WARUNKOW DO LOTOW<br>SZYBOWCOWYCH NA TERMICE<br>12. OPRACOWAL DYZURNY SYNOPTYK: LEONARD BRZOZOWY<br>';FAPLtime[8]='07:44 26.09.2011';flightdataFAPL[9]='040<br>FEPL10 OKEC 260600<br>1. KOMUNIKAT SZYBOWCOWY NA OBSZAR 10 - PROGNOZA TESTOWA<br>2. WAZNY OD 06.00 DO 16.00 UTC DNIA 26.09.2011<br>3. SYTUACJA BARYCZNA:WYZ ZNAD UKRAINY<br>4. WIATR PRZYZIEMNY:VRB 02KT<br>5. GRADIENT TERMICZNY:<br>  NA GODZINE 06.00 UTC: 0,1st.C/100 M<br>  NA GODZINE 12.00 UTC: 0,7st.C/100 M<br>6. CHMURY CU (PODSTAWA M NAD POZIOM GRUNTU): PO GODZ. 09.00 UTC 1-4/8<br>1000-1500<br>7. ISTOTNE INNE CHMURY: 2-5/8 CI POW.5000 M<br>8. INWERSJA: ZANIKAJACA PRZYZIEMNA<br>9. TERMIKA: WYPRACOWANA CUMULUSOWA<br>10. NOSZENIA: DO GODZ.09.00-10.00 UTC BRAK, NASTEPNIE SLABE<br>11. UWAGI: DO GODZ. 09.00-10.00 UTC BRAK WARUNKOW DO LOTOW<br>SZYBOWCOWYCH NA TERMICE<br>12. OPRACOWAL DYZURNY SYNOPTYK: LEONARD BRZOZOWY<br>';FAPLtime[9]='07:42 26.09.2011';flightdataFAPL[10]='034<br>FEPL11 OKEC 260600<br>1. KOMUNIKAT SZYBOWCOWY NA OBSZAR 11 - PROGNOZA TESTOWA<br>2. WAZNY OD 06.00 DO 16.00 UTC DNIA 26.09.2011<br>3. SYTUACJA BARYCZNA: WYZ NAD UKRAINA<br>4. WIATR PRZYZIEMNY: 140-180/05-08KT<br>5. GRADIENT TERMICZNY:<br>  NA GODZINE 06.00 UTC: 0.2st.C/100M<br>  NA GODZINE 12.00 UTC: 0.9st.C/100M<br>6. CHMURY CU (PODSTAWA M NAD POZIOM GRUNTU): BRAK<br>7. ISTOTNE INNE CHMURY: LOKALNIE LAWICE CI<br>8. INWERSJA: DO GODZ. 08UTC PRZYZIEMNA ZANIKAJACA<br>9. TERMIKA: WYPRACOWANA<br>10. NOSZENIA: BRAK LOKALNIE SLABE<br>11. UWAGI: BRAK<br>12. OPRACOWAL DYZURNY SYNOPTYK: MARZENA TRABICKA<br>';FAPLtime[10]='07:24 26.09.2011';flightdataFAPL[11]='035<br>FEPL12 OKEC 260600<br>1. KOMUNIKAT SZYBOWCOWY NA OBSZAR 12 - PROGNOZA TESTOWA<br>2. WAZNY OD 06.00 DO 16.00 UTC DNIA 26.09.2011<br>3. SYTUACJA BARYCZNA: WYZ NAD UKRAINA<br>4. WIATR PRZYZIEMNY: POCZATKOWO LOKALNIE VRB/02KT NASTEPNIE<br>160-190/04-08KT<br>5. GRADIENT TERMICZNY:<br>  NA GODZINE 06.00 UTC: 0.2st.C/100M<br>  NA GODZINE 12.00 UTC: 0.7st.C/100M<br>6. CHMURY CU (PODSTAWA M NAD POZIOM GRUNTU): BRAK<br>7. ISTOTNE INNE CHMURY: LOKALNIE LAWICE CI<br>8. INWERSJA: DO GODZ. 08UTC PRZYZIEMNA ZANIKAJACA<br>9. TERMIKA: WYPRACOWANA<br>10. NOSZENIA: SLABE<br>11. UWAGI: BRAK<br>12. OPRACOWAL DYZURNY SYNOPTYK: MARZENA TRABICKA<br>';FAPLtime[11]='07:25 26.09.2011';flightdataFAPL[12]='029<br>FEPL13 KRAK 260600<br>1. KOMUNIKAT SZYBOWCOWY NA OBSZAR 13 - PROGNOZA TESTOWA<br>2. WAZNY OD 06.00 DO 16.00 UTC DNIA 26.09.2011<br>3. SYTUACJA BARYCZNA: WYZ Z CENTRUM NAD UKRAINA.<br>4. WIATR PRZYZIEMNY: 150-220/03-06KT<br>5. GRADIENT TERMICZNY:<br>  NA GODZINE 06.00 UTC: 0.1st.C/100M<br>  NA GODZINE 12.00 UTC: 1.0st.C/100M<br>6. CHMURY CU (PODSTAWA NAD POZIOM GRUNTU): BRAK.<br>7. ISTOTNE INNE CHMURY: LAWICE CI CS.<br>8. INWERSJA: RANO PRZYZIEMNA, SZYBKO ZANIKAJACA. Z OSIADANIA NA<br>WYSOKOSCI 1500-1800 M.<br>9. TERMIKA: WYPRACOWANA BEZCHMURNA.<br>10. NOSZENIA: SLABE.<br>11. UWAGI: RANO ZAMGLENIA, LOKALNIE MGLY.<br>12. OPRACOWAL DYZURNY SYNOPTYK: MAREK KOZLOWSKI<br>';FAPLtime[12]='07:15 26.09.2011';flightdataFAPL[13]='030<br>FEPL14 KRAK 260600<br>1. KOMUNIKAT SZYBOWCOWY NA OBSZAR 14 - PROGNOZA TESTOWA<br>2. WAZNY OD 06.00 DO 16.00 UTC DNIA 26.09.2011<br>3. SYTUACJA BARYCZNA: WYZ Z CENTRUM NAD UKRAINA.<br>4. WIATR PRZYZIEMNY: 150-220/03-06KT<br>5. GRADIENT TERMICZNY:<br>  NA GODZINE 06.00 UTC: 0.1st.C/100M<br>  NA GODZINE 12.00 UTC: 1.0st.C/100M<br>6. CHMURY CU (PODSTAWA NAD POZIOM GRUNTU): BRAK.<br>7. ISTOTNE INNE CHMURY: LAWICE CI CS.<br>8. INWERSJA: RANO PRZYZIEMNA, SZYBKO ZANIKAJACA. Z OSIADANIA NA<br>WYSOKOSCI 1500-1800 M.<br>9. TERMIKA: WYPRACOWANA BEZCHMURNA.<br>10. NOSZENIA: SLABE.<br>11. UWAGI: RANO ZAMGLENIA, LOKALNIE MGLY.<br>12. OPRACOWAL DYZURNY SYNOPTYK: MAREK KOZLOWSKI<br>';FAPLtime[13]='07:15 26.09.2011';flightdataFAPL[14]='031<br>FEPL15 KRAK 260600<br>1. KOMUNIKAT SZYBOWCOWY NA OBSZAR 15 - PROGNOZA TESTOWA<br>2. WAZNY OD 06.00 DO 16.00 UTC DNIA 26.09.2011<br>3. SYTUACJA BARYCZNA: WYZ Z CENTRUM NAD UKRAINA.<br>4. WIATR PRZYZIEMNY: 150-220/03-06KT<br>5. GRADIENT TERMICZNY:<br>  NA GODZINE 06.00 UTC: 0.1st.C/100M<br>  NA GODZINE 12.00 UTC: 1.0st.C/100M<br>6. CHMURY CU (PODSTAWA NAD POZIOM GRUNTU): BRAK.<br>7. ISTOTNE INNE CHMURY: LAWICE CI CS.<br>8. INWERSJA: RANO PRZYZIEMNA, SZYBKO ZANIKAJACA. Z OSIADANIA NA<br>WYSOKOSCI 1500-1800 M.<br>9. TERMIKA: WYPRACOWANA BEZCHMURNA.<br>10. NOSZENIA: SLABE.<br>11. UWAGI: RANO ZAMGLENIA, LOKALNIE MGLY.<br>12. OPRACOWAL DYZURNY SYNOPTYK: MAREK KOZLOWSKI<br>';FAPLtime[14]='07:15 26.09.2011';flightdataFAPL[15]='033<br>FEPL16 KRAK 260600<br>1. KOMUNIKAT SZYBOWCOWY NA OBSZAR 16 - PROGNOZA TESTOWA<br>2. WAZNY OD 06.00 DO 16.00 UTC DNIA 26.09.2011<br>3. SYTUACJA BARYCZNA: WYZ Z CENTRUM NAD UKRAINA.<br>4. WIATR PRZYZIEMNY: 150-220/03-06KT<br>5. GRADIENT TERMICZNY:<br>  NA GODZINE 06.00 UTC: 0.1st.C/100M<br>  NA GODZINE 12.00 UTC: 1.0st.C/100M<br>6. CHMURY CU (PODSTAWA NAD POZIOM GRUNTU): BRAK.<br>7. ISTOTNE INNE CHMURY: LAWICE CI CS.<br>8. INWERSJA: RANO PRZYZIEMNA, SZYBKO ZANIKAJACA. Z OSIADANIA NA<br>WYSOKOSCI 1500-1800 M.<br>9. TERMIKA: WYPRACOWANA BEZCHMURNA.<br>10. NOSZENIA: SLABE.<br>11. UWAGI: RANO ZAMGLENIA, LOKALNIE MGLY.<br>12. OPRACOWAL DYZURNY SYNOPTYK: MAREK KOZLOWSKI<br>';FAPLtime[15]='07:17 26.09.2011';flightdataFAPL[16]='032<br>FEPL17 KRAK 260600<br>1. KOMUNIKAT SZYBOWCOWY NA OBSZAR 17 - PROGNOZA TESTOWA<br>2. WAZNY OD 06.00 DO 16.00 UTC DNIA 26.09.2011<br>3. SYTUACJA BARYCZNA: WYZ Z CENTRUM NAD UKRAINA.<br>4. WIATR PRZYZIEMNY: 150-220/03-06KT<br>5. GRADIENT TERMICZNY:<br>  NA GODZINE 06.00 UTC: 0.1st.C/100M<br>  NA GODZINE 12.00 UTC: 1.0st.C/100M<br>6. CHMURY CU (PODSTAWA NAD POZIOM GRUNTU): BRAK.<br>7. ISTOTNE INNE CHMURY: LAWICE CI CS.<br>8. INWERSJA: RANO PRZYZIEMNA, SZYBKO ZANIKAJACA. Z OSIADANIA NA<br>WYSOKOSCI 1500-1800 M.<br>9. TERMIKA: WYPRACOWANA BEZCHMURNA.<br>10. NOSZENIA: SLABE.<br>11. UWAGI: RANO ZAMGLENIA, LOKALNIE MGLY.<br>12. OPRACOWAL DYZURNY SYNOPTYK: MAREK KOZLOWSKI<br>';FAPLtime[16]='07:16 26.09.2011';flightdataGAMET[0]='401<br>FAPL21 OKEC 100300<br><br>EPWW GAMET VALID 100400/101000 EPWA-<br>EPWW WARSAW FIR/A1 BLW FL100<br><br>SECN I<br><br>SFC WSPD: 04/10 35KT MAR<br>SFC VIS:  04/10 1000-5000M SN BR<br>SIG CLD:  04/10 LCA BKN 400-1000/1200-2000FT AMSL<br>ICE:      04/10 MOD ALL LEVELS<br>TURB:     04/10 MOD ALL LEVELS<br>SIGMET APPLICABLE: 7<br><br><br>SECN II<br><br>PSYS:     06 TROUGH OF LOW PRESSURE OVER S POLAND STNR NC<br>       ASSOCIATED WITH L 982 HPA OVER ATLANTIC STNR WKN<br>       AND LOCAL CENTRE L 998 HPA OVER CENTRAL GERMANY MOV SE SLW NC<br>       WARM FRONT LINE EDDB-EPWR-EPRZ STNR NC<br><br>SFC WIND: 04/10 080/13KT LCA GUSTS UP TO 30KT<br>          04/10 LCA GUSTS UP TO 50KT MAR<br>          04/10 LCA GUSTS UP TO 35KT COT<br>WIND/T:   04/10<br>  1000FT AMSL 080/25KT AND 080/40KT MAR   MS09<br>  2000FT AMSL 100/40KT   MS09<br>  3300FT AMSL 100/40KT N PART AND 120/30KT S PART   MS10<br>  5000FT AMSL 100/35KT N PART AND 150/25KT S PART   MS11 N PART AND<br>MS08 S PART<br> 10000FT AMSL 200/15KT N PART AND 240/20KT S PART   MS12<br>CLD:      04/10 LYR OVC 1000-2000/ABV 10000FT AMSL<br>FZLVL:    04/10 SFC<br>SEA:      04/10 T01 HGT 3.0-6.0M<br><br>CHECK AIRMET AND SIGMET INFORMATION<br>';GAMETtime[0]='03:49 10.03.2013';flightdataGAMET[1]='403<br>FAPL22 WROC 100300<br><br>EPWW GAMET VALID 100400/101000 EPWR-<br>EPWW WARSAW FIR/A2 BLW FL150<br><br>SECN I<br><br>SFC VIS:  04/10 1500-5000M SN SNRA BR N PART<br>          AND 04/10 LCA 0600-1000M SN N PART<br>          04/10 1000-5000M DZ SNRA BR S PART<br>          04/10 LCA 0100-0900M DZ FG SUDETY<br>MT OBSC:  04/10 ABV 1200-2500FT AMSL SUDETY<br>SIG CLD:  04/10 BKN 400-1000/1500-2000FT AMSL<br>          04/10 BKN 1200-1500/2000-2500FT AMSL SUDETY<br>ICE:      04/10 MOD LCA SEV ALL LEVELS<br>TURB:     04/10 LCA MOD SFC/FL040 N OF N51<br>SIGMET APPLICABLE: 7<br><br><br>SECN II<br><br>PSYS:     06 TROUGH OF LOW PRESSURE OVER S POLAND STNR NC<br>       ASSOCIATED WITH L 982 HPA OVER ATLANTIC STNR WKN<br>       AND LOCAL CENTRE L 998 HPA OVER CENTRAL GERMANY MOV SE SLW NC<br>       WARM FRONT LINE EDDB-EPWR-EPRZ STNR NC<br>SFC WIND: 04/10 090-120/08-16KT LCA GUSTS UP TO 30KT N PART<br>          04/10 100-130/04-10KT S PART<br>WIND/T:   04/10<br>  1000FT AMSL 100-120/25-35KT N OF N51 AND 120/10-15KT S OF N51<br>              FM MS09 N PART TO 0000 S PART<br>  2000FT AMSL 120-140/20-30KT N OF N51 AND 160-190/10-15KT S OF N51<br>              FM MS08 N PART TO PS01 S PART<br>  3300FT AMSL 120-150/20-30KT N OF N52 AND 180/10-15KT S OF N52<br>              FM MS08 N PART TO PS01 S PART<br>  5000FT AMSL 160-190/20KT AND 250-280/10-20KT SUDETY<br>              FM MS08 N PART TO MS01 S PART<br> 10000FT AMSL 250-270/15-25KT   MS10<br>CLD:      04/10 LYR OVC 1500-2000/ABV 15000FT AMSL<br>          AND 06/10 BKN SC 2000-2500/6000-8000FT AMSL S PERIPHERY<br>          06/10 BKN AC AS 8000-9000/12000-13000FT AMSL S PERIPHERY<br>FZLVL:    04/10 SFC N PART<br>          04/10 SFC OR NEAR SFC AND TEMPERATURE ABT 0 DEG<br>1000/4500FT AMSL S PART<br><br>CHECK AIRMET AND SIGMET INFORMATION<br>';GAMETtime[1]='03:59 10.03.2013';flightdataGAMET[2]='400<br>FAPL23 OKEC 100300<br><br>EPWW GAMET VALID 100400/101000 EPWA-<br>EPWW WARSAW FIR/A3 BLW FL100<br><br>SECN I<br><br>SFC VIS:  04/10 LCA 1000-5000M SN BR S PART<br>SIG CLD:  04/10 LCA BKN 800-1300/1500-2000FT AMSL S PART<br>ICE:      04/10 MOD ABV FL010 S PART<br>          04/10 LCA MOD ABV FL030 N PART<br>TURB:     04/10 LCA MOD SFC/FL080<br>SIGMET APPLICABLE: 7<br><br><br>SECN II<br><br>PSYS:     06 TROUGH OF LOW PRESSURE OVER S POLAND STNR NC<br>       ASSOCIATED WITH L 982 HPA OVER ATLANTIC STNR WKN<br>       AND LOCAL CENTRE L 998 HPA OVER CENTRAL GERMANY MOV SE SLW NC<br>       WARM FRONT LINE EDDB-EPWR-EPRZ STNR NC<br><br>SFC WIND: 04/10 080/12KT LCA GUSTS UP TO 25KT<br>WIND/T:   04/10<br>  1000FT AMSL 080/20KT   MS12<br>  2000FT AMSL 100/35KT   MS10<br>  3300FT AMSL 110/25KT   MS10<br>  5000FT AMSL 100/18KT   MS10<br> 10000FT AMSL 240/08KT   MS13<br>CLD:      04/10 BKN AS 8000-9000/ABV 10000FT AMSL<br>          04/10 BKN LCA SCT SC 1500-3000/6000-8000FT AMSL<br>FZLVL:    04/10 SFC<br><br>CHECK AIRMET AND SIGMET INFORMATION<br>';GAMETtime[2]='03:48 10.03.2013';flightdataGAMET[3]='402<br>FAPL24 OKEC 100300<br><br>EPWW GAMET VALID 100400/101000 EPWA-<br>EPWW WARSAW FIR/A4 BLW FL100<br><br>SECN I<br><br>SFC VIS: 04/08 LCA 1500-5000M SN BR W AND S PART<br>         08/10 LCA 1000-5000M SN BR<br>SIG CLD: 04/08 LCA BKN 600-1200/1500-2000FT AMSL W AND S PART<br>         08/10 LCA BKN 500-1200/1500-2000FT AMSL<br>ICE:     04/10 MOD FL010/ABV FL100<br>         04/10 LCA MOD ALL LEVELS<br><br>SIGMET APPLICABLE: 7<br><br><br>SECN II<br><br>PSYS: 06 TROUGH OF LOW PRESSURE OVER S POLAND STNR NC<br>      ASSOCIATED WITH L 982 HPA OVER ATLANTIC STNR WKN<br>      AND LOCAL CENTRE L 998 HPA OVER CENTRAL GERMANY MOV SE SLW NC<br>      WARM FRONT LINE EDDB-EPWR-EPRZ STNR NC<br><br>SFC WIND: 04/10 080/10KT<br>WIND/T:   04/10<br>  1000FT AMSL 080/20KT   MS08 N OF N52 AND MS04 S OF N52<br>  2000FT AMSL 100/25KT   MS07<br>  3300FT AMSL 100/15KT   MS07<br>  5000FT AMSL 110/15KT N OF N52 AND 150/05KT S OF N52   MS06<br> 10000FT AMSL 270/15KT   MS10<br>CLD:  04/10 BKN AC AS 8000-9000/ABV 10000FT AMSL<br>      04/10 BKN SC 1200-2500/7000-8000FT AMSL<br>FZLVL: 04/10 SFC<br><br>CHECK AIRMET AND SIGMET INFORMATION<br>';GAMETtime[3]='03:54 10.03.2013';flightdataGAMET[4]='398<br>FAPL25 KRAK 100300<br><br>EPWW GAMET VALID 100400/101000 EPKK-<br>EPWW WARSAW FIR/A5 BLW FL150<br><br>SECN I<br><br>SFC VIS:  04/10 1000-5000M SN RASN RA<br>          04/10 LCA 0100-0900M FG<br>MT OBSC:  04/10 ABV 1200FT AMSL BESKIDY BUT ABV 2800FT AMSL TATRY<br>SIG CLD:  04/10 BKN 1200-2000/2000-2300FT AMSL<br>          04/10 BKN 2800-3600/3600-4000FT AMSL PODHALE<br>ICE:      04/10 MOD LCA SEV ALL LEVELS<br><br>SIGMET APPLICABLE: 7<br><br><br>SECN II<br><br>PSYS:       06     TROUGH OF LOW PRESSURE OVER S POLAND STNR NC<br>       ASSOCIATED WITH L 982 HPA OVER ATLANTIC STNR WKN<br>       AND LOCAL CENTRE L 998 HPA OVER CENTRAL GERMANY MOV SE SLW NC<br>       WARM FRONT LINE EDDB-EPWR-EPRZ STNR NC<br><br><br>SFC WIND: 04/10 080/04-08KT<br>WIND/T:   04/10<br>  1000FT AMSL 080/05-10KT   MS01<br>  2000FT AMSL 090/10-15KT   MS02<br>  3300FT AMSL 100/05-10KT   MS02<br>  5000FT AMSL VRB/04KT   MS02<br> 10000FT AMSL 260/10-15KT   MS09<br>CLD:      04/10 BKN/OVC SC 2300-3000/7000-8000FT AMSL<br>          04/10 BKN/OVC SC 4000-4600/7000-8000FT AMSL PODHALE<br>          04/10 BKN AC AS 8000-9000/ABV 15000FT AMSL<br>FZLVL:    04/10 SFC N OF N50<br>          04/10 NEAR SFC S OF N50<br><br>CHECK AIRMET AND SIGMET INFORMATION<br>';GAMETtime[4]='03:36 10.03.2013';fmetar10='METAR EPBY 100600Z 05011KT 9999 OVC012 M05/M06 Q1006 =<br>METAR EPGD 100600Z 07015KT 9999 SCT017 M06/M10 Q1008 =<br>METAR EPKK 100600Z 08006KT 5000 BR FEW003 BKN005 M01/M01<br>    Q1001 REFZRA =<br>METAR EPKT 100600Z 10004KT 060V130 6000 -SN SCT004<br>    BKN008 M01/M01 Q1000 =<br>METAR EPLL 100600Z 08007KT 1700 SN BR BKN008 M04/M05<br>    Q1003 R25/82//95 =<br>METAR EPPO 100600Z 07010KT 2000 SN BR BKN006 M03/M04<br>    Q1003 R10/81//43 =<br>METAR EPRZ 100600Z 07006KT 2000 BR OVC001 M01/M01 Q1002<br>    REFZDZ =<br>METAR EPSC 100600Z 06011KT 2000 -SN BR SCT030 BKN045<br>    M05/M06 Q1004 R13/590394 =<br>METAR EPWA 100600Z 05008KT 6000 -SN BKN013 M04/M05 Q1005 R88/1///95<br>    NOSIG=<br>METAR EPWR 100600Z 10008KT 3500 -FZRA BR BKN006 M00/M02<br>    Q1001 R11/510194 =<br>METAR EPZG 100600Z 07012KT 5000 BR BKN008 OVC013 M02/M03<br>    Q1002 REFZRA =<br>';fmetar05='METAR EPBY 100530Z 06011KT 9999 -SN OVC012 M05/M06<br>    Q1006 =<br>METAR EPGD 100530Z 07015G29KT 9999 SCT017 M06/M11 Q1008 =<br>METAR EPKK 100530Z 08007KT 5000 -FZRA BR FEW003 BKN005<br>    M01/M01 Q1001 =<br>METAR EPKT 100530Z 08006KT 3500 -SGSN BR SCT004 SCT006<br>    BKN009 M01/M01 Q1000 REFZRA =<br>METAR EPLL 100530Z 08008KT 3500 -SN BR BKN010 M04/M05<br>    Q1003 R25/82//95 =<br>METAR EPPO 100530Z 08012KT 2500 -SN BR BKN006 M02/M05<br>    Q1003 R10/19//95 =<br>METAR EPRZ 100530Z 08007KT 2000 -FZDZ BR OVC002 M01/M01<br>    Q1002 =<br>METAR EPSC 100530Z 06010KT 3000 -SN BR FEW011 SCT033<br>    BKN046 M05/M06 Q1005 R13/590394 =<br>METAR EPWA 100530Z 06008KT 4000 -SN BR BKN013 M04/M05 Q1005<br>     R88/1///95 TEMPO 3000 BKN010=<br>METAR EPWR 100530Z 10007KT 4000 -FZRA BR BKN006 M00/M02<br>    Q1001 R11/510194 =<br>METAR EPZG 100530Z 07012KT 3500 -SN BR OVC010 M02/M02<br>    Q1002 RESN =<br>';ftaffc='TAF EPBY 100500Z 1006/1015 07013KT 7000 BKN020<br>    TEMPO 1006/1015  5000 -SN BR BKN015<br>    PROB40 TEMPO 1006/1015 08015G25KT 3000 DRSN SCT005 BKN010=<br>TAF EPKT 100500Z 1006/1015 10006KT 6000 BKN010<br>    TEMPO 1006/1009 3000 RASN FZRA BR BKN005<br>    PROB40 TEMPO 1006/1009 1500 SN BKN002<br>    TEMPO 1009/1015 3000 RASN RA BKN005=<br>TAF EPSC 100500Z 1006/1015 08013KT 5000 -SN BR BKN017<br>    TEMPO 1006/1015 08015G28KT 1500 SN BLSN BR BKN005 BKN010<br>    PROB30 TEMPO 1006/1010 FZRA=<br>TAF EPWR 100500Z 1006/1015 11007KT 6000 BKN010<br>    TEMPO 1006/1009 3000 -FZDZ BR OVC005<br>    PROB30 TEMPO 1006/1009 1500 SNRA BR OVC002<br>    PROB40 TEMPO 1009/1015 3000 DZ BR OVC005=<br>TAF EPZG 100500Z 1006/1015 07010KT 6000 OVC010<br>    TEMPO 1006/1015 07016G26KT 3000 -SN BR OVC005<br>    PROB40 TEMPO 1006/1015 1500 SN BR<br>    PROB30 TEMPO 1006/1012 FZDZ OVC002=<br>';ftafft='TAF EPGD 100500Z 1006/1106 08016KT 7000 BKN020<br>    BECMG 1006/1008 5000 -SN BR BKN015<br>    TEMPO 1006/1106 08020G35KT 1500 SN BLSN BKN005 BKN010=<br>TAF AMD EPKK 100606Z 1006/1106 05006KT 6000 BKN005<br>    TEMPO 1006/1009 3000 FZRA BR BKN001<br>    TEMPO 1009/1106 3000 RASN RA<br>    PROB40 1009/1018 BKN010<br>    PROB40 TEMPO 1021/1106 1200 SN OVC001<br>    PROB30 TEMPO 1021/1106 FZRA=<br>TAF EPLL 100500Z 1006/1106 09010KT 9999 BKN015<br>    TEMPO 1006/1009 3000 SN BR OVC005<br>    PROB40 TEMPO 1009/1018 5000 -SN BR BKN010<br>    TEMPO 1018/1106 5000 SNRA BKN010<br>    PROB40 TEMPO 1018/1106 FZRA=<br>TAF EPPO 100500Z 1006/1106 09010KT 6000 OVC010<br>    TEMPO 1006/1106 3000 -SN BR OVC005<br>    PROB40 TEMPO 1006/1106 1500 SN BR<br>    PROB30 TEMPO 1006/1015 09016G26KT DRSN=<br>TAF EPRZ 100500Z 1006/1106 06005KT 4000 BR OVC005<br>    TEMPO 1006/1009 1200 RASN FZDZ BR OVC001<br>    TEMPO 1009/1018 3000 RA RASN<br>    PROB40 1018/1106 1500 SN BKN002<br>    PROB30 TEMPO 1021/1106 0600 FZFG OVC001=<br>TAF EPWA 100500Z 1006/1106 08010KT 9999 BKN015<br>    BECMG 1006/1009 5000 -SN BR BKN010<br>    TEMPO 1006/1012 2000 SN BKN005<br>    PROB40 TEMPO 1020/1106 3000 -SN BR BKN005=<br>';fairmet='';fsigmet='406<br>WSPL31 EPWA 100304<br>EPWW SIGMET 1 VALID 100325/100725 EPWA-<br>EPWW WARSAW FIR SEV ICE (FZRA) OBS S OF N5130 SFC/FL040 STNR NC=<br>';
+	function setlayer(el,sender)
+	{
+			pic=document.getElementById(el);
+			s=document.getElementById(sender);
+
+			if (s.checked==false)
+				pic.style.visibility="hidden";
+			else
+				pic.style.visibility="visible";
+	}
+
+	function showinfo(k,tablica,komunikat)
+	{
+			area=k;
+			areachoice=komunikat;
+
+			var message="";
+			var filetime="";
+			var bottompr='<div class="closelink">';
+			bottompr+='<span class="prbuttons" onclick="gotoproduct(\'metar1h\')">METAR 1h<\/span>&nbsp;&nbsp;&nbsp;&nbsp;';
+			bottompr+='<span class="prbuttons" onclick="gotoproduct(\'metar30m\')">METAR 30m<\/span>&nbsp;&nbsp;&nbsp;&nbsp;';
+			bottompr+='<span class="prbuttons" onclick="gotoproduct(\'tafft\')">TAF FT<\/span>&nbsp;&nbsp;&nbsp;&nbsp;';
+			bottompr+='<span class="prbuttons" onclick="gotoproduct(\'taffc\')">TAF FC<\/span>&nbsp;&nbsp;&nbsp;&nbsp;';
+			bottompr+='<span class="prbuttons" onclick="gotoproduct(\'airmet\')">AIRMET<\/span>&nbsp;&nbsp;&nbsp;&nbsp;';
+			bottompr+='<span class="prbuttons" onclick="gotoproduct(\'sigmet\')">SIGMET<\/span>&nbsp;&nbsp;&nbsp;&nbsp;';
+			bottompr+='<span class="prbuttons" onclick="gotofirst()">&lt;&lt;<\/span>&nbsp;&nbsp;&nbsp;&nbsp;';
+			bottompr+='<span class="prbuttons" onclick="gotostep(-1)">&lt;<\/span>&nbsp;&nbsp;&nbsp;&nbsp;';
+			bottompr+='<span class="prbuttons" onclick="gotostep(1)">&gt;<\/span>&nbsp;&nbsp;&nbsp;&nbsp;';
+			bottompr+='<span class="prbuttons" onclick="gotolast()">&gt;&gt;<\/span>&nbsp;&nbsp;&nbsp;&nbsp;';
+			bottompr+='<span class="prbuttons" onclick="hideinfo()">Zamknij<\/span>';
+			bottompr+='<\/div>';
+
+			if(komunikat=="FAPL")
+			{
+				message="Komunikat szybowcowy na rejon ";
+				filetime=FAPLtime[k];
+			}
+
+			if(komunikat=="GAMET")
+			{
+				message="Prognoza GAMET na obszar A";
+				filetime=GAMETtime[k];
+			}
+
+			var k1=k+1;
+
+			inf=document.getElementById("prcell");
+			inf.style.display = "block";
+			inf.style.visibility="visible";
+			inf.style.height="auto";
+			inf.style.padding="0px";
+			inf.style.marginTop = "10px";
+
+			document.getElementById("nrrejon").innerHTML=message+k1;
+			document.getElementById("prdata").innerHTML=bottompr+tablica[k];
+			document.getElementById("filetime").innerHTML=filetime;
+	}
+
+	function hideinfo()
+	{
+			inf=document.getElementById("prcell");
+			inf.style.display = "none";
+			inf.style.visibility="hidden";
+			inf.style.height="0";
+			inf.style.padding="0";
+			inf.style.marginTop = "0px";
+	}
+
+	function gotoproduct(P)
+	{
+			locwindow="?product="+P;
+			location.href=locwindow;
+	}
+
+	function gotofirst()
+	{
+			if(area<1) return;
+
+			if(areachoice=="FAPL")
+				showinfo(0,flightdataFAPL,"FAPL");
+
+			if(areachoice=="GAMET")
+				showinfo(0,flightdataGAMET,"GAMET");
+	}
+
+	function gotolast()
+	{
+			if(areachoice=="FAPL")
+			{
+       if(area>15) return;
+       showinfo(16,flightdataFAPL,"FAPL");
+			}
+
+			if(areachoice=="GAMET")
+			{
+       if(area>3) return;
+       showinfo(4,flightdataGAMET,"GAMET");
+			}
+	}
+
+	function gotostep(x)
+	{
+			if(areachoice=="FAPL")
+			{
+       if(area>15 && x>0 || area<1 && x<0) return;
+       showinfo(area+x,flightdataFAPL,"FAPL");
+			}
+
+			if(areachoice=="GAMET")
+			{
+       if(area>3 && x>0 || area<1 && x<0) return;
+       showinfo(area+x,flightdataGAMET,"GAMET");
+			}
+	}
+
+	function setmenu()
+	{
+			ncell=document.getElementById("newscell");
+
+			if(!ncell) return;
+
+			ncell.innerHTML=shortnews;
+
+			if (pmenu=="") return;
+
+			// O=document.getElementById("stage");
+			O=document.getElementById("stage-map");
+
+			if(!O) return;
+			Q=O.innerHTML;
+
+			// O.innerHTML='<a href="index.php">Strona główna -&gt; <\/a>'+pmenu;
+			O.innerHTML=pmenu;
+	}
+
+	function shownews()
+	{
+			document.getElementById("newscell").innerHTML=news;
+	}
+
+	function hidenews()
+	{
+			document.getElementById("newscell").innerHTML=shortnews;
+	}
+
+	function hideprint()
+	{
+			el=document.getElementById("printga");
+			el.style.visibility="hidden";
+
+			el=document.getElementById("printpo");
+			el.style.visibility="hidden";
+
+			el=document.getElementById("printpp");
+			el.style.visibility="hidden";
+
+			document.getElementById("wpo").style.color="black";
+			document.getElementById("wpg").style.color="black";
+			document.getElementById("wpp").style.color="black";
+	}
+
+	function showprint1()
+	{
+			hideprint();
+
+			el=document.getElementById("printpo");
+			el.style.visibility="visible";
+
+			document.getElementById("wpo").style.color="#006ab5";
+	}
+
+	function showprint2()
+	{
+			hideprint();
+
+			el=document.getElementById("printga");
+			el.style.visibility="visible";
+
+			document.getElementById("wpg").style.color="#006ab5";
+	}
+
+	function showprint3()
+	{
+			hideprint();
+
+			el=document.getElementById("printpp");
+			el.style.visibility="visible";
+
+			document.getElementById("wpp").style.color="#006ab5";
+	}
+
+	function clrsel()
+	{
+			var a=1;
+			var s="chaa";
+
+			while (document.getElementById(s+a))
+			{
+       document.getElementById(s+a).checked=false;
+       a++;
+			}
+
+			var a=1;
+			var s="chab";
+
+			while (document.getElementById(s+a))
+			{
+       document.getElementById(s+a).checked=false;
+       a++;
+			}
+
+			var a=1;
+			var s="chac";
+
+			while (document.getElementById(s+a))
+			{
+       document.getElementById(s+a).checked=false;
+       a++;
+			}
+	}
+
+	function print_buttons()
+	{
+			pr.document.write('<div class="btns">');
+			pr.document.write('<span class="printbtns" onclick="window.print();">Drukuj<\/span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="printbtns" onclick="window.close();">Zamknij<\/span>');
+			pr.document.write('<\/div>');
+	}
+
+	function forecastprint()
+	{
+			var fcastinf="";
+
+			var a=1;
+			var s="chaa";
+
+			while (document.getElementById(s+a))
+			{
+        if (document.getElementById(s+a).checked==true)
+        {
+          fcastinf+=flightdataFAPL[a-1];
+          fcastinf+="<br><hr><br>";
+        }
+        a++;
+			}
+
+			var a=1;
+			var s="chab";
+
+			while (document.getElementById(s+a))
+			{
+        if (document.getElementById(s+a).checked==true)
+        {
+          fcastinf+=flightdataGAMET[a-1];
+          fcastinf+="<br><hr><br>";
+        }
+        a++;
+			}
+
+			var a=1;
+			var s="chac";
+
+			while (document.getElementById(s+a))
+			{
+        if (document.getElementById(s+a).checked==true)
+        {
+          if (a==1) { fcastinf+=fmetar10; fcastinf+="<br><hr><br>"; }
+          if (a==2) { fcastinf+=fmetar05; fcastinf+="<br><hr><br>"; }
+          if (a==3) { fcastinf+=ftaffc; fcastinf+="<br><hr><br>"; }
+          if (a==4) { fcastinf+=ftafft; fcastinf+="<br><hr><br>"; }
+          if (a==5) { fcastinf+=fairmet; fcastinf+="<br><hr><br>"; }
+          if (a==6) { fcastinf+=fsigmet; fcastinf+="<br><hr><br>"; }
+          if (a==7) { fcastinf+="<img src='prognozy/SWC_PL_EPWA.jpeg' width='700'>"; fcastinf+="<br><hr><br>"; }          
+        }
+        a++;
+			}
+
+			if (fcastinf=="")
+			{
+        window.alert("Zaznacz przynajmniej jedną opcję do wydruku.");
+        return;
+			}
+
+			pr=window.open("","Okienko_Pankracego","scrollbars=yes, width=760, height=600");
+
+			pr.document.write('<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"');
+			pr.document.write('"http://www.w3.org/TR/html4/loose.dtd">');
+			pr.document.write('<html><head>');
+			pr.document.write('<meta http-equiv="Content-Type" content="text/html; charset=utf-8">');
+			pr.document.write('<meta http-equiv="Content-Language" content="pl">');
+			pr.document.write('<meta HTTP-EQUIV="pragma" CONTENT="no-cache">');
+			pr.document.write('<meta name="copyright" content="&copy;IMGW">');
+			pr.document.write('<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">');
+			pr.document.write('<link href="css/stylepr.css" rel="stylesheet" type="text/css">');
+			pr.document.write('<\/head><body>');
+
+			print_buttons();
+
+			pr.document.write("<br><hr><br>");
+			pr.document.write(fcastinf);
+
+			print_buttons();
+
+			pr.document.write('<\/body><\/html>');
+			pr.document.close();
+	}
+
+	function graphprint(imgfile,wimage,himage){
+			pr=window.open("","Okienko_Bonifacego","scrollbars=yes, width="+wimage+", height="+himage);
+
+			pr.document.write('<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"');
+			pr.document.write('"http://www.w3.org/TR/html4/loose.dtd">');
+			pr.document.write('<html><head>');
+			pr.document.write('<meta http-equiv="Content-Type" content="text/html; charset=utf-8">');
+			pr.document.write('<meta http-equiv="Content-Language" content="pl">');
+			pr.document.write('<meta HTTP-EQUIV="pragma" CONTENT="no-cache">');
+			pr.document.write('<meta name="copyright" content="&copy;IMGW">');
+			pr.document.write('<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">');
+			pr.document.write('<link href="css/stylepr.css" rel="stylesheet" type="text/css">');
+			pr.document.write('<\/head><body>');
+
+			print_buttons();
+
+			pr.document.write("<br><hr><br>");
+			pr.document.write("<img src='prognozy/"+imgfile+"'>");
+
+			print_buttons();
+
+			pr.document.write('<\/body><\/html>');
+			pr.document.close();
+	}
+// -->
+</script>
+
+<style type="text/css"></style></head>
+
+<body onload="setmenu()">
+
+<div style="height:20px;"></div>
+
+<div class="container">
+<div id="main-wrap">
+
+<!-- ########################################################################################################### TOP BAR -->
+<div id="main-top-bar" class="span-25 last">
+	<div>
+		<ul id="top-bar-menu">
+			<li><img src="./AWIACJA - Produkty meteorologiczne dla lotnictwa General Aviation_files/plico32.png" title="Polska wersja językowa" alt="pl"></li>
+			<li><a href="http://awiacja.imgw.pl/en"><img src="./AWIACJA - Produkty meteorologiczne dla lotnictwa General Aviation_files/ukico32.png" title="Angielska wersja językowa" alt="eng"></a></li>
+			<!-- <li><a href="http://www.imgw.pl">Zaloguj się</a></li> -->
+		</ul>
+		<br style="clear: both">
+	</div>
+</div>
+
+<!-- ########################################################################################################### LOGO + NAV -->
+<div id="main-top" class="span-25 last">
+	<div class="span-7">
+		<a href="http://awiacja.imgw.pl/index.php"><img src="./AWIACJA - Produkty meteorologiczne dla lotnictwa General Aviation_files/awiacja.png" alt="Awiacja"></a>
+		<a href="http://www.imgw.pl/"><img src="./AWIACJA - Produkty meteorologiczne dla lotnictwa General Aviation_files/imgw_top.png" alt="Awiacja"></a>
+	</div>
+	<div class="span-18 last">
+		<div class="top-menu-wrap">
+			<ul class="top-menu">
+				<li><a href="http://awiacja.imgw.pl/index.php" style="border-left:none"><img src="./AWIACJA - Produkty meteorologiczne dla lotnictwa General Aviation_files/home.gif" alt="home"></a></li>
+				 <li><a href="http://awiacja.imgw.pl/index.php?product=about-us">OBSZAR MOLC</a></li><li><a href="http://awiacja.imgw.pl/index.php?product=obszar-molc">LSM-y</a></li><li><a href="http://awiacja.imgw.pl/index.php?product=lbm">LBM-y</a></li><li><a href="http://awiacja.imgw.pl/index.php?product=biura-prognoz">BIURA PROGNOZ</a></li><li><a href="http://awiacja.imgw.pl/index.php?product=cert">CERTYFIKATY</a></li><li><a href="http://awiacja.imgw.pl/index.php?product=kontakt">ZGŁASZANIE UWAG</a></li><li><a href="http://awiacja.imgw.pl/index.php?product=prawne">ZASTRZEŻENIA PRAWNE</a></li>			</ul>
+		</div>
+	</div>
+</div>
+<!-- ########################################################################################################### END LOGO -->
+
+<!-- ########################################################################################################### BANER -->
+<div id="main-baner" class="span-25 last">
+	<div>
+		<img src="./AWIACJA - Produkty meteorologiczne dla lotnictwa General Aviation_files/awiacja_baner.png" alt="Awiacja">
+	</div>
+</div>
+<!-- ########################################################################################################### END BANER -->
+
+<!-- ########################################################################################################### NEWS -->
+<div id="main-news" class="span-25 last">
+	<div class="news-wrap">
+	<!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+	<div><div id="news-top">WIADOMOŚCI</div><div id="news-box"><div id="newscell"><div class="newsdate"> ostatnia aktualizacja: 05.03.2013 14:05</div>Szanowni Państwo, uprzejmie informujemy, iż od dnia 27 listopada 2012 r. na stronie awiacja.imgw.pl w lokalizacji „PRODUKTY” dostępne są dwie nowe zakładki, w których znajdują się depesze TAF i METAR opracowywane przez Służbę Hydrologiczno- Meteorologiczną Sił Zbrojnych RP.<span style="float: right;"><a id="readmore-link" onclick="shownews()"><span style="color:#ffd2ce">pokaż więcej »</span></a></span><br style="clear:both"></div><div id="news-bottom"></div></div>	<!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+	</div>
+</div>
+<!-- ########################################################################################################### END NEWS -->
+
+<!-- ########################################################################################################### CONTENT -->
+<div id="main-content" class="span-25 last">
+
+	<div class="span-5" style="margin-right:0px; width:200px;">
+		<div class="left-menu-wrap">
+
+			<h3>PRODUKTY</h3>
+
+			<ul class="left-menu">
+				<li><a href="http://awiacja.imgw.pl/index.php?product=gamet">GAMET</a></li><li><a href="http://awiacja.imgw.pl/index.php?product=metar1h">METAR GG00 (1 h)</a></li><li><a href="http://awiacja.imgw.pl/index.php?product=metar30m">METAR GG30 (30 m)</a></li><li><a href="http://awiacja.imgw.pl/index.php?product=metar_mil">METAR lotniska wojskowe</a></li><li><a href="http://awiacja.imgw.pl/index.php?product=tafft">TAF FT (długi)</a></li><li><a href="http://awiacja.imgw.pl/index.php?product=taffc">TAF FC (krótki)</a></li><li><a href="http://awiacja.imgw.pl/index.php?product=taf_mil">TAF lotniska wojskowe</a></li><li><a href="http://awiacja.imgw.pl/index.php?product=airmet">AIRMET</a></li><li><a href="http://awiacja.imgw.pl/index.php?product=sigmet">SIGMET&nbsp;&nbsp;&nbsp;&nbsp;<img src="./AWIACJA - Produkty meteorologiczne dla lotnictwa General Aviation_files/kolko.gif" alt=""></a></li><li><a href="http://awiacja.imgw.pl/index.php?product=sigmetwv">SIGMET WV</a></li><li><a href="http://awiacja.imgw.pl/index.php?product=significant">Significant</a></li><li><a href="http://awiacja.imgw.pl/index.php?product=sig-euro">Significant europejski</a></li><li><a href="http://awiacja.imgw.pl/index.php?product=wind">Mapy wiatrowe</a></li><li><a href="http://awiacja.imgw.pl/index.php?product=tur">Turbulencje</a></li><li><a href="http://awiacja.imgw.pl/index.php?product=obl">Oblodzenie</a></li><li><a href="http://awiacja.imgw.pl/index.php?product=sniezka">Pogoda na Śnieżce</a></li><li><a href="http://awiacja.imgw.pl/index.php?product=burze">Burze</a></li>			</ul>
+
+			<h3>OPISY PRODUKTÓW</h3>
+
+			<ul class="left-menu">
+				<li><a href="http://awiacja.imgw.pl/index.php?product=gamet-opis">GAMET</a></li><li><a href="http://awiacja.imgw.pl/index.php?product=metar-opis">METAR</a></li><li><a href="http://awiacja.imgw.pl/index.php?product=taf-opis">TAF</a></li><li><a href="http://awiacja.imgw.pl/index.php?product=airmet-opis">AIRMET</a></li><li><a href="http://awiacja.imgw.pl/index.php?product=sigmet-opis">SIGMET</a></li><li><a href="./AWIACJA - Produkty meteorologiczne dla lotnictwa General Aviation_files/AWIACJA - Produkty meteorologiczne dla lotnictwa General Aviation.html" class="current">Significant</a></li><li><a href="http://awiacja.imgw.pl/index.php?product=wind-opis">Mapy wiatrowe</a></li>			</ul>
+
+			<h3>ANKIETY</h3>
+
+			<ul class="left-menu">
+				<li><a href="http://awiacja.imgw.pl/index.php?product=querygamet">Ankieta prognoz GAMET</a></li><li><a href="http://awiacja.imgw.pl/index.php?product=queryawiacja">Ankieta awiacja.imgw.pl</a></li>			</ul>
+		</div>
+	</div>
+
+	<div class="span-20 last">
+		<div class="span-20 last">
+			<div id="prcell" class="" style="display:none; width:760px; margin:0px auto"><div id="mapinfo-top"><h3 id="nrrejon"></h3></div><div id="mapinfo-box"><div class="barinfo"><div id="filetime"></div></div><div id="prdata"></div></div><div id="mapinfo-bottom" class="span-20 last"></div></div>
+			<div style="width:760px; margin:auto;" class="info-head-name">
+	<b style="float:left">SIGNIFICANT - OPIS</b>
+	<b class="date-field" style="float:right">14:44 01.02.2011</b>
+</div>
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+<div style="width:760px; margin:auto;" class="info-head-nav">
+	<ul>
+		<li><b onclick="gotoproduct(&#39;wind-opis&#39;)">WIND</b></li>
+		<li><b class="current" style="border-right:none" onclick="gotoproduct(&#39;swc-opis&#39;)">SIGNIFICANT</b></li>
+		<li><b onclick="gotoproduct(&#39;sigmet-opis&#39;)">SIGMET</b></li>
+		<li><b onclick="gotoproduct(&#39;airmet-opis&#39;)">AIRMET</b></li>
+		<li><b onclick="gotoproduct(&#39;taf-opis&#39;)">TAF</b></li>
+		<li><b onclick="gotoproduct(&#39;metar-opis&#39;)">METAR</b></li>
+		<li><b onclick="gotoproduct(&#39;gamet-opis&#39;)">GAMET</b></li>
+	</ul>
+	<br style="clear:both">
+</div>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+<div class="forecast"><br><table border="0" width="725" bgcolor="#e3edff" cellpadding="3" cellspacing="1" align="center">
+        
+        <tbody><tr bgcolor="#e3edff">
+          <td>&nbsp;</td>
+        </tr>
+        
+        <tr>
+          <td bgcolor="#ffffff">
+            
+            <table style="text-align:justify;">
+              <tbody><tr>
+                <td>
+                  <b>Prognoza obszarowa w formie mapy wykonywana dla obszaru Polski od powierzchni ziemi do FL100 a w obszarach górzystych do FL 150 (SFC-700 hPa), poziom niski (low-level SIGWX) – SWC</b> opracowywana jest przez synoptyków w Centralnym Biurze Prognoz Lotniczych – Meteorologicznym Biurze Nadzoru i przeznaczona jest dla lotnictwa ogólnego. SWC jest ogólną prognozą pogody i zawiera informacje na temat istotnych dla lotnictwa prognozowanych zjawisk i elementów pogody.<br><br>
+                
+                  <table align="center" width="600">                    
+                    <tbody><tr>
+                      <td>
+                        <b>Dostępność i ważność prognoz map istotnych zjawisk pogody (czas podany w UTC):</b>
+                      </td>
+                    </tr>
+                  </tbody></table>
+
+                  <table align="center" width="300">
+                    <tbody><tr>
+                      <td align="center" valign="middle" width="150" height="24" bgcolor="#e4ffff"><b>Dostępność</b></td>
+                      <td align="center" valign="middle" width="150" height="24" bgcolor="#e4ffff"><b>Ważność</b></td>
+                    </tr>
+
+                    <tr bgcolor="#ececee">
+                      <td align="center" valign="middle" height="20" bgcolor="#e3edff"><b>02.00</b></td>
+                      <td align="center" valign="middle" height="20"><span class="jasna2">06.00 ( 03-09 )</span></td>
+                    </tr>
+                    <tr bgcolor="#ececee">
+                      <td align="center" valign="middle" height="20" bgcolor="#e3edff"><b>08.00</b></td>
+                      <td align="center" valign="middle" height="20"><span class="jasna2">12.00 ( 09-15 )</span></td>
+                    </tr>
+                    <tr bgcolor="#ececee">
+                      <td align="center" valign="middle" height="20" bgcolor="#e3edff"><b>14.00</b></td>
+                      <td align="center" valign="middle" height="20"><span class="jasna2">18.00 ( 15- 21 )</span></td>
+                    </tr>
+                    <tr bgcolor="#ececee">
+                      <td align="center" valign="middle" height="20" bgcolor="#e3edff"><b>20.00</b></td>
+                      <td align="center" valign="middle" height="20"><span class="jasna2">00.00 ( 21-03 )</span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <br>SFC-FL100 zawiera następujące stałe elementy:<br><b>Wysokości izotermy zero podana w ramkach: np. 080</b> -&gt; 8000 ft -&gt; 2400 m,<br><b>SFC</b> -&gt; temperatura ujemna od powierzchni gruntu,<br><b>n.SFC</b> -&gt; temperatura przy gruncie dodatnia, w pobliżu gruntu przechodząca w ujemną,<br><b>XXX</b> -&gt; temperatura dodatnia w całej warstwie od SFC do 700hPa,<br><b>020/080</b> -&gt; wysokość izotermy zero 2000 ft oraz 8000 ft, w warstwie 2000-8000 ft temperatura dodatnia.
+                </td>              
+              </tr>
+
+              <tr>
+                <td>
+                  <br><b>Prędkość i kierunek wiatru</b> na poziomie FL050 w węzłach.<br><b>Położenie ośrodków ciśnienia z zaznaczeniem wartości.</b>
+                </td>              
+              </tr>               
+
+              <tr>
+                <td>
+                  <br><b>Informacja o chmurach</b>: z podaniem wielkości zachmurzenia (od FEW do OVC), rodzaju chmur (symbolem, np. AS, CU), położenia dolnej i górnej granicy w setkach stóp nad poziom morza. Jeżeli wierzchołki chmur sięgają powyżej FL100, to są opisane jako XXX. Gdy chmury mają podstawę powyżej 1500 m i nie występuje CB ani TCU, stosuje się wyrażenie NSC. Przy bezchmurnym niebie używa się SKC.
+                </td>              
+              </tr>
+              
+              <tr>
+                <td>
+                  <br>Ponadto mogą występować również takie elementy, jak:<br><b>Fronty</b> – rodzaj i położenie przy powierzchni ziemi,<br><b>Porywy wiatru</b> - GUSTS podane w KT (węzły) o prędkości powyżej 30.
+                </td>              
+              </tr>
+
+              <tr>
+                <td>
+                  <br><b>Oznaczenia stosowane tylko dla chmur TCU i CB : ISOL, OCNL, EMBD, FRQ</b><br><b>ISOL CB / TCU</b> powinny być uważane za izolowane jeśli składają się z pojedynczych komórek, które oddziaływują lub prognozuje się, że będą oddziaływać, na obszarze o maksymalnym pokryciu przestrzennym mniejszym niż 50 procent powierzchni rozważanego obszaru (w pewnym momencie w okresie ważności),<br><b>OCNL  CB / TCU</b> powinny być uważane za odseparowane jeśli składają się z dobrze oddzielonych komórek, które oddziaływują, lub prognozuje się, że będą oddziaływać, na obszarze o maksymalnym pokryciu przestrzennym pomiędzy 50 a 75 procent powierzchni rozważanego obszaru (w pewnym momencie w okresie ważności),<br><b>FRQ CB / TCU</b> uważane za częste jeśli pomiędzy sąsiednimi burzami występuje niewielka separacja lub jej brak, przy czym maksymalny obszar, na który burze oddziaływują lub prognozuje się, że będą oddziaływać, stanowi więcej niż 75 procent powierzchni rozważanego obszaru (w pewnym momencie w okresie ważności),<br><b>EMBD CB / TCU</b> powinny być uważane za wbudowane jeśli są wbudowane w warstwy chmur i nie mogą być łatwo rozpoznane.
+                </td>              
+              </tr>
+
+              <tr>
+                <td>
+                  <br><b>Widzialność</b> podawana w kilometrach i w metrach,<br>np.: 10 KM<br>5-3 KM BR<br>3000-1500 M DZ<br>500-300 M FG
+                </td>              
+              </tr>
+
+              <tr>
+                <td>
+                  <br><b>Zjawiska</b> – podawane wg <b>kodu METAR</b> umieszczane są  przy  widzialności (o ile występują).
+                </td>              
+              </tr>
+
+              <tr>
+                <td>
+                  <br><b>Wydzielone i opisane obszary o odmiennym charakterze pogody i zachmurzenia są linią muszelkowatą, tak że we wnętrzu linii znajduje się obszar o gorszych warunkach pogodowych. Czasami dodaje się określenia konkretyzujące lokalizację np. COT + MAR, MON itp. Linia przerywana oznacza strefę wydzieloną z obszaru z istotną zmianą pojedynczego elementu meteorologicznego. Wszystkie wysokości podawane są w setkach stóp od poziomu morza.</b>
+                </td>              
+              </tr>
+            </tbody></table>
+          </td>
+        </tr>
+
+        <tr bgcolor="#e3edff">
+          <td>&nbsp; </td>
+        </tr>
+        
+</tbody></table>
+<table border="0" width="725" bgcolor="#e3edff" cellpadding="3" cellspacing="1" align="center">
+        
+        <tbody><tr bgcolor="#e3edff">
+          <td>&nbsp; </td>
+        </tr>
+        
+        <tr>
+          <td bgcolor="#ffffff">
+            
+            <table style="text-align:justify;">
+              <tbody><tr>
+                <td>
+                  <b>Słownik skrótów używanych w SWC.</b><br><br>
+                </td>
+              </tr>
+            </tbody></table>
+            <table align="left" width="720">
+              
+              <tbody><tr>
+                <td align="center" valign="middle" width="100" height="24" bgcolor="#e4ffff"><b>Skrót</b></td>
+                <td align="center" valign="middle" width="250" height="24" bgcolor="#e4ffff"><b>Znaczenie</b></td>
+                <td align="center" valign="middle" width="100" height="24" bgcolor="#e4ffff"><b>Skrót</b></td>
+                <td align="center" valign="middle" width="250" height="24" bgcolor="#e4ffff"><b>Znaczenie</b></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>ABV</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">ponad/nad/powyżej</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>AC</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">chmury Altocumulus</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>AGL</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">nad poziomem terenu</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>AMSL</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">nad średnim poziomem morza</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>AMD</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">poprawiona (mapa)</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>AS</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">chmury Altostratus</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>BKN</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">zachmurzenie 5/8-7/8</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>BLSN</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">wysoka zamieć śnieżna</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>BR</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">zamglenie</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>CB</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">chmury Cumulonimbus</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>CI</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">chmury Cirrus</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>COT</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">na wybrzeżu</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>CS</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">chmury Cirrostratus</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>CU</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">chmury Cumulus</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>DZ</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">mżawka</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>EMBD</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">wbudowane</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>FEW</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">zachmurzenie 1/8-2/8</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>FC</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">tornado lub trąba wodna</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>FL</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">poziom lotu</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>FG</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">mgła</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>FZDZ</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">marznąca mżawka</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>FRQ</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">częsty/częste</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>FZRA</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">deszcz marznący</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>FZFG</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">mgła przy temperaturze powietrza poniżej 0°C</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>GS</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">drobny grad/krupa śnieżna</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>GR</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">grad</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>GUSTS UP TO... KT</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">porywy wiatru do... węzłów</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>HECTOFEET</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">setki stóp - wskaźnik wysokości</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>HVY</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">silne (natężenie zjawiska)</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>HZ</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">zmętnienie</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>ISOL</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">izolowane</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>KM</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">jednostka widzialności</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>LCA</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">lokalnie</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>LYR</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">warstwa lub warstwami</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>M</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">metry - jednostka widzialności</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>MAR</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">na morzu</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>MOD</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">umiarkowane (natężenie zjawiska)</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>MON</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">nad górami</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>MTW</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">fale górskie</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>NS</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">chmury Nimbostratus</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>NSC</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">chmury bez znaczenia dla operacji lotniczych</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>N.SFC</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">w pobliżu powierzchni gruntu</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>OCNL</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">przypadkowe</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>OVC</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">zachmurzenie 8/8</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>PR</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">obszar częściowo zakryty, np. przez mgłę lub chmury</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>RA</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">deszcz</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>RASN</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">deszcz ze śniegiem</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>&nbsp;</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">&nbsp;</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>SC</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">chmury Stratocumulus</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>SCT</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">zachmurzenie 3/8-4/8</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>SEV</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">silne (natężenie oblodzenia i turbulencji)</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>SFC</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">powierzchnia gruntu</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>SKC</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">niebo bezchmurne</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>SHRA</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">deszcz przelotny</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>SHSN</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">śnieg przelotny</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>SN</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">opad śniegu</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>SQ</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">nawałnica</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>SQL</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">linia nawałnic</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>ST</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">chmury Stratus</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>TCU</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">Cumulus congestus o wielkiej rozciągłości pionowej</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>TDO</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">tornado/trąba powietrzna</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>TS</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">burza</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>TSGR</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">burza z gradem</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>TSRA</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">burza z deszczem</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>TSSN</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">burza z opadem śniegu</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>VA</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">popiół wulkaniczny</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>VAL</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">w dolinach</span></td>
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>VIS</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">widzialność</span></td>
+              </tr>
+
+              <tr bgcolor="#ececee">
+                <td align="center" valign="middle" height="30" bgcolor="#e3edff"><b>+</b></td>
+                <td align="center" valign="middle" height="30"><span class="jasna2">natężenie zjawiska - silne</span></td>
+              </tr>
+
+            </tbody></table>
+          </td>
+        </tr>
+
+        <tr bgcolor="#e3edff">
+          <td>&nbsp; </td>
+        </tr>
+        
+</tbody></table>
+</div><div class="line"></div>		</div>
+	</div>
+
+</div>
+<!-- ########################################################################################################### END CONTENT -->
+
+<!-- ########################################################################################################### LINKS -->
+<div id="main-links" class="span-25 last">
+	<div style="display:block; margin:15px auto; width:926px">
+		<ul class="bottom-menu">
+			<li><a href="http://www.pogodynka.pl/" style="border-left:none" class="link-pog"><span id="link-pogodynka">Pogodynka</span></a></li>
+			<li><a href="http://www.pogodynka.pl/radary/gradary" class="link-gradary"><span id="link-gradary">Radary</span></a></li>
+			<li><a href="http://www.pogodynka.pl/polska/zjawiska" class="link-zjawiska"><span id="link-zjawiska">Zjawiska</span></a></li>
+			<li><a href="http://www.imgw.pl/" class="link-imgw"><span id="link-imgw">IMGW PIB</span></a></li>
+			<li><a href="https://sklep.imgw.pl/" class="link-imgwsklep"><span id="link-imgwsklep">Sklep IMGW&nbsp;PIB</span></a></li>
+			<li><a href="http://www.zagle.pogodynka.pl/" class="link-zagle"><span id="link-zagle">Żagle</span></a></li>
+			<li><a href="http://www.ulc.gov.pl/" class="link-ulc"><span id="link-ulc">ULC</span></a></li>
+			<li><a href="http://www.icao.int/" class="link-icao"><span id="link-icao">ICAO</span></a></li>
+			<li><a href="http://awiacja.imgw.pl/index.php?product=kontakt-dane" class="link-dk"><span id="link-dk">Dane kontaktowe</span></a></li>
+		</ul>
+	</div>
+</div>
+<!-- ########################################################################################################### END LINKS -->
+
+<!-- ########################################################################################################### COPY -->
+<div id="main-copy" class="span-25 last">
+	<div style="text-align:center; padding:15px">
+		Awiacja.imgw.pl jest pogodowym serwisem informacyjnym<br>Instytutu Meteorologii i Gospodarki Wodnej Państwowego Instytutu Badawczego.<br>Copyright IMGW PIB 2009-2011© Wszelkie prawa zastrzeżone.
+	</div>
+</div>
+<!-- ########################################################################################################### END COPY -->
+
+</div>
+</div>
+
+<div id="tltip"></div>
+
+
+
+</div><div id="lbOverlay" class="grey" style="display: none;"></div><div id="lbMain" style="display: none;"><div id="lbOuterContainer" class="grey"><div id="lbIframeContainer" style="display: none;"><iframe id="lbIframe" name="lbIframe" style="display: none;"></iframe></div><div id="lbImageContainer"><img id="lbImage"><div id="lbHoverNav"><a id="lbPrev" class="grey" href="http://awiacja.imgw.pl/index.php?product=swc-opis#"></a><a id="lbNext" class="grey" href="http://awiacja.imgw.pl/index.php?product=swc-opis#"></a></div></div><div id="lbLoading"></div></div><div id="lbDetailsContainer" class="grey"><div id="lbDetailsData" class="grey"><div id="lbDetails"><span id="lbCaption"></span><span id="lbNumberDisplay"></span><span id="lbNavDisplay" style="display: none;"></span></div><div id="lbBottomNav"><a id="lbClose" class="grey" href="http://awiacja.imgw.pl/index.php?product=swc-opis#"></a><a id="lbPause" class="grey" href="http://awiacja.imgw.pl/index.php?product=swc-opis#" style="display: none;"></a><a id="lbPlay" class="grey" href="http://awiacja.imgw.pl/index.php?product=swc-opis#" style="display: none;"></a></div></div></div></div></body></html>

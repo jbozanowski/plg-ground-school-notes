@@ -1,0 +1,15 @@
+#tltip{
+  position : absolute;
+  color : #000000;
+  background-color:#FFFFFF;
+  padding:4px;
+  border-width:1px;
+  border-style:solid;
+  font : 12px Verdana;
+  font-weight : normal;
+  text-align : left;
+  width : 250px;
+/*  height : 150px; */
+  visibility : hidden;
+  z-index : 110;
+}
