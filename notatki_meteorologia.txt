@@ -210,7 +210,7 @@
     - awiacja.imgw.pl
 - Wiatr
     - Przemieszczanie się powietrza względem powierzchni ziemi w kierunku
-      pionowym nazywamy wiatrem. Przyczyną jest nierównomierny rozkład
+      poziomym nazywamy wiatrem. Przyczyną jest nierównomierny rozkład
       ciśnienia na kuli ziemskiej, który z kolei uwarunkowany jest rozkładem
       temperatury. Charakterystyczne cechy to kierunek i prędkość.
     - Meteorologiczny kierunek wiatru to *skąd* wiatr wieje. Można go określić

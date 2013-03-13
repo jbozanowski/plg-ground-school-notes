@@ -1,2 +1,286 @@
 - p. Skrzyński
+- Zaliczenie w postaci testu (zaznaczyć poprawną odpowiedź)
+
+- Atmosfera standardowa
+    - Równanie stanu
+        P / (ro) = RT
+            - P - ciśnienie (Pa)
+            - (ro) - gęstość
+            - R - stała gazowa (287 m^2/s^2 K)
+    - Ciśnienie cząstkowe
+        - wszystko na 45 stopniu szerokości geograficznej:
+        - wys. 0
+            - 1013 hPa
+            - 15 stopni C
+            - gęstość 1.25 kg/m^3
+        - 2 km
+            - 794 hPa
+            - 2 stopnie C
+            - 1.03 kg/m^3
+        - 4 km
+            - 616 hPa
+            - -11 stopni C
+            - 0.84 kg/m^3
+        - 6 km
+            - 417 hPa
+            - -24 hPa
+            - 0.67 kg/m^3
+        - 8 km
+            - 355 hPa
+            - -37 stopni C
+            - 0.54 kg/m^3
+    - Gdyby powietrze miało taką gęstość jak woda, wysokość atmofery ~ 8 km
+    - Prędkość dźwięku
+        - a = 20.5 sqrt(T)
+        - z wysokością maleje
+   
+- Temperatura
+    - energia kinetyczna cząstek
+- Gęstość
+    - ilość masy na jednostkę objętości
+    - powietrza 800x mniejsza od wody
+- Ciśnienie
+    - Pascal
+        - 1 N/m^2
+            - 1 N to siła nadająca masie 1 kg prędkość 1 m/s (?)
+    - atmosferyczne ciśnienie standardowe: 1013 hPa
+    - 760 mm Hg
+        P = (ro)gh ((ro) - gęstość rtęci, h - wysokość słupka rtęci)
+- Wielkości skalarne i wektorowe
+    - skalarne
+        - można opisać jedną liczbą
+        - przykłady
+            - ciśnienie
+            - masa
+            - praca
+            - moc
+    - wektorowe
+        - kilka wartości
+            - zwrot
+            - kierunek
+            - punkt przyłożenia
+            - wielkość
+                - skalar
+        - przykłady
+            - siła
+            - prędkość
+            - pęd
+        - przenoszenie wektora
+            - moment
+                - wektor, który przenosi jeden do drugiego
+
+- Podstawowe potrzebne prawa fizyki
+    - prawa Newtona
+        - ciało porusza się ruchem jednostajnym prostolinijnym lub nie
+          porusza się, jeśli na ciało nie działa żadna siła lub siły
+          równoważą się
+        - 
+        - każdej akcji towarzyszy reakcja równa co do wielkości i
+          przeciwnie skierowana
+    - prawa zachowania
+        - prawo zachowania masy
+            - w lotnictwie: równanie ciągłości strugi
+                - Rys. 6
+                - przy niewielkich prędkościach (poniżej prędkości dźwięku)
+                  powietrze możemy traktować jako nieściśliwe - w równaniu
+                  ciągłości pomijamy (ro)
+                - ciśnienie zmniejsza się wraz ze wzrostem prędkości
+                  przepływu
+                - C - ciśnienie całkowite (spiętrzenia)
+        - prawo zachowania enegrii
+        - prawo zachowania pędu (tzw. ilości ruchu)
+- IAS (indicated air speed)
+    - Rys. 7
+    - rurka Pitota
+    - TODO znaleźć wzór
+- Geometria płatowca
+    - Rys. 8
+        - rozpiętość - D
+        - płat nośny
+        - powierzchnia nośna - razem z kadłubem - S
+        - C - cięciwa
+        - usterzenie płytowe - jeśli cały statecznik jest usterzeniem
+        - obrys płatu (szybowca)
+            - Rys. 9
+            - prostokątny (najprostszy)
+            - trapezowy
+                - cięciwa końcówki Cx
+                - cięciwa nasady Cn
+                - Cx/Cn - zbieżność
+            - eliptyczny
+    - przekrój
+        - Rys. 10
+        - cięciwa - c
+            - największa odległość
+        - przekrój niesymetryczny
+        - przekrój symetryczny
+            - najczęściej usterzenie
+        - linia szkieletowa
+            - linia łącząca środki okręgów wpisanych w profil
+        - strzałka ugięcia
+            - największa odległość między linią szkieletową a cięciwą
+        - grubość profilu
+            - największa odległość między grzbietem a spodem,
+              mierzoną prostopadle do cięciwy
+        - typowe grubości
+            - (największe - 20%)
+            - kiedyś większość 17%
+            - obecnie 12-13%
+        - wydłużenie
+            - (lambda) = B/C = b * b / c * b = b^2/S = b/c * c/c = S/c^2
+                - (w zależności od geometrii płata)
+                - b^2 / S - najważniejszy z powyższych
+            - bardzo ważny parametr
+            - w szybowcu bardzo duże w porównaniu z innymi samolotami
+- Układ odniesienia szybowca
+    - Rys. 11
+    - wokół osi x (podłużnej) - przechylenie (bank)
+    - wokół osi y (poprzecznej) - pochylenie (pitch)
+    - wokół osi z (pionowej) - odchylenie (yaw)
+- Aerodynamika
+    - Rys. 12
+    - siła oporu
+        - działa w kierunku przepływu
+    - siła nośna
+        - działa prostopadle do kierunku przepływu
+    - zadaniem konstruktorów jest stworzenie takiego płatowca, aby stosunek
+      siły nośnej do siły oporu był jak największy
+    - Kąt natarcia
+    - Siła aerodynamiczna
+        - Rys. 13 i 14
+        - PA = (((ro) * V^2) / 2) * S * CA
+        - PZ = (((ro) * V^2) / 2) * S * CZ = Q (ciężar)
+        - Vmin = sqrt((2 * Q) / ((ro) * S * CZmax))
+    - Opór aerodynamiczny
+        - Rys. 15
+        - opór tarcia i opór ciśnieniowy
+        - warstwa przyścienna (delta)
+            - im bliżej warstwy laminarnej, tym mniejsza prędkość
+        - warstwa laminarna turbulizuje przepływ
+        - moment turbulizacji zależy od kształtu profilu i od jakości
+          powierzchni
+        - siodło laminarne
+            - Rys. 16
+            - obszar zmniejszonego oporu
+            - duża część profilu jest opływana przepływem laminarnym
+            - turbulizacja na dolnej powierzchni profilu
+            - P-51 Mustang
+        - Opór płata nośnego
+            - Rys. 17
+            - na końcu płata jest dużo większy opór ciśnieniowy
+                - Opór Indukowany
+                - szybowce mają długie skrzydła (duże wydłużenie - lambda),
+                  aby był jak najmniejszy opór indukowany (lambda jest w
+                  mianowniku równania na Rys. 17)
+        - Opór interferencyjny
+            - całkowity opór całego szybowca jest większy niż opory
+              poszczególnych części składowych - właśnie poprzez wpływ
+              oporów poszczególnych części na inne (np. kadłub wymusza
+              turbulizację na skrzydle od samego noska na punkcie styku)
+        - Opór szczelinowy
+            - na powierzchniach sterowych
+    - Środek parcia
+        - Punkt, w którym moment aerodynamiczny jest 0.
+    - Doskonałość szybowca
+        - stosunek siły nośnej do oporu
+        - d = Cz/Cx
+    - Sposoby na zmniejszanie prędkości minimalnej/zwiększanie Cz max:
+        - Klapa zwykła
+            - zwiększa Cz max
+            - najczęściej na szybowcach
+        - Klapa krokodylowa
+            - Cz - 2.5 (ale rośnie opór, dla szybowca niezbyt się nadaje)
+        - Klapa Fowlera
+            - wysuwa się, zwiększając powierzchnię i krzywiznę
+            - Cz - 3-3.5
+            - już nie stosowane w szybowcach
+        - Slot
+            - powiększa (alfa) krytyczne, zwiększa Cz maximum
+            - rzadko na szybowcach
+- Podstawowe stany lotu szybowca
+    - Lot ślizgowy
+        - Rys. 24
+    - Zakręt
+        - Rys. 25
+        - Ważna wielkość: współczynnik obciążenia (n)
+        - Chyłomierz poprzeczny
+            - wyślizg - za duża siła odśrodkowa
+                - za duża prędkość kątowa: za małe przechylenie/za dużo steru
+                  kierunku
+            - ześlizg - za mała siła odśrodkowa
+                - za duże przechylenie/za mała prędkość kątowa (za mało steru)
+        - Różnicowość lotek
+            - dla ułatwienia wykonywania zakrętu
+            - niesymetryczna praca lotek - lotka zewnętrznego skrzydła możne nawet w
+              ogóle się nie wychylać w dół, wychyla się tylko w dół lotka skrzydła
+              wewnętrznego
+                - lotka wychylająca się w dół zwiększa kąt natarcia, a więc
+                  zwiększa opór Cx
+            - stosuje się też lotki mocowane tak, że przy wychyleniu w górę,
+              lotka wsuwa swoją krawędź natarcia pod skrzydło, zwiększając opór
+              - wyrównując tym samym opór z drugim skrzydłem
+        - 
+- Obciążenia szybowca
+    - Wyciąganie z nurkowania: Rys. 26
+    - Start za wyciągarką: Rys. 27
+    - Turbulencje
+    - Rys. 28 + Rys. 29:
+        - do prędkości VA nie jesteśmy w stanie przekroczyć dopuszczalnych
+          obciążeń
+- Stateczność
+    - Rys. 30
+    - Zapasem stateczności nazywa się odległość między punktem neutralnym a
+      aktualnym położeniem środka ciężkości.
+    - Sposoby na zapewnienie stateczności w osi x
+        - odchylenie skrzydeł ku górze
+        - skos skrzydeł do tyłu
+    - Stateczność spiralna
+        - wszystkie szybowce ze względu na wielką rozpiętość skrzydła są
+          niestateczne spiralnie
+            - dysproporcja siły aerodynamicznej na wewnętrznym i zewnętrznym
+              skrzydle w zakręcie
+            - w zakręcie szybowiec trzeba podtrzymywać w zakręcie, żeby nie
+              wchodzić w spiralę
+- Lot z minimalną prędkością
+    - Przeciągnięcie statyczne
+        - Stateczny szybowiec po przekroczeniu krytycznego kąta natarcia
+          (niezbyt gwałtownie) szybowiec powróci do mniejszego kąta natarcia
+    - Odwrotne działanie lotek
+        - Przy locie z minimalną prędkością nie należy używać lotek, gdyż mogą
+          zadziałać odwrotnie (lotka opuszczana zwiększa kąt natarcia, co może
+          pogłębić przeciągnięcie skrzydła)
+        - Różnicowość działania lotek pozwala uniknąć odwrotnego działania
+          lotek
+- Korkociąg
+    - Nie jest to figura akrobacji, tylko stan lotu
+    - Korkociąg zwykły i płaski
+        - Zwykły
+            - pochylenie kadłuba do ziemi ok. 60 stopni
+            - kąt natarcia 25-30 stopni
+            - opadanie względem ziemi: 60-70 m na 1 zwitkę
+            - czas trwania zwitki 2-3s
+        - Płaski
+            - nachylenie kadłuba do ziemi 20-30 stopni
+            - kąt natarcia 60-65 stopni
+            - opadanie względem ziemi: 30-50 m na 1 zwitkę
+            - czas trwania zwitki 1.5s
+- Lot z maksymalną prędkością
+    - Rozbieżność skrętna skrzydeł
+        - możliwość ukręcenia skrzydła przez sprzężenie zwrotne przy
+          zwiększaniu kąta natarcia skrzydła przy niewystarczającej sztywności
+          skrzydła - zwiększenie kąta natarcia powoduje deformację skrzydła
+          przy zwiększaniu siły nośnej, która to deformacja powoduje dalszy
+          wzrost siły nosnej, itd. - dziś w zasadzie niemożliwe, acz Żwirko i
+          Wigura zginęli właśnie przez to
+        - zagadnienie aeroelastyczności statycznej - odkształcenia konstrukcji
+          zmieniają siły aerodynamiczne (jeśli konstrukcja jest za mało
+          sztywna)
+    - Flutter (drgania samowzbudne)
+        - Rys. 31
+        - Dodatkową przyczyną flutteru może być majtanie się lotek - skrzydło
+          opadając podczas drgań sprężystych zostawia lotkę za sobą, co
+          powoduje zmianę siły aerodynamicznej, dodatkowo dociskającej skrzydło
+          w dół
+            - Aby tego uniknąć, lotka musi być wyważona tak, aby środek obrotu
+              był za środkiem ciężkości.
 
