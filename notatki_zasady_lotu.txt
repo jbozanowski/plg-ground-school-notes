@@ -46,6 +46,7 @@
     - atmosferyczne ciśnienie standardowe: 1013 hPa
     - 760 mm Hg
         P = (ro)gh ((ro) - gęstość rtęci, h - wysokość słupka rtęci)
+    - zmienia się ok. 15 Pa na 1 m zmiany wysokości
 - Wielkości skalarne i wektorowe
     - skalarne
         - można opisać jedną liczbą
@@ -232,6 +233,7 @@
     - Rys. 28 + Rys. 29:
         - do prędkości VA nie jesteśmy w stanie przekroczyć dopuszczalnych
           obciążeń
+        - VA - max prędkość brutalnego sterowania
 - Stateczność
     - Rys. 30
     - Zapasem stateczności nazywa się odległość między punktem neutralnym a
