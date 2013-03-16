@@ -108,8 +108,8 @@
     - Ilość pary wodnej zawartej w jednostce objętości powietrza.
     - Rozróżniamy wilgotności:
         - Wilgotność względna
-            - Stosunek jest to stosunek ilości pary wodnej zawartej w
-              objętności powietrza do ilości, która to powietrze nasyci w danej
+            - Jest to stosunek ilości pary wodnej zawartej w objętności
+              powietrza do ilości, która to powietrze nasyci w danej
               temperaturze razy sto i wynik otrzymujemy w procentach.
         - Wilgotność bezwzględna
             - Gęstość pary wodnej wyrażona w (kilo)gramach na metr sześciennych.
