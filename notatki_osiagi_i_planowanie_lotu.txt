@@ -1,1 +1,121 @@
 - p. Skrzyński
+
+Szybowiec - dokumenty potrzebne do lotów
+    - Certyfikat/świadectwo typu
+        - Wydawane przez ULC
+    - Świadectwo sprawności technicznej
+        - Pot. "pedet"
+        - Musi być, żeby można było latać danym szybowcem
+        - Wypełniane przed każdym lotem
+            - ile zostało do przeglądu
+            - kto sprawdził szybowiec
+    - Klasa
+        - Nadawana corocznie przez Kontrolę Cywilnych Statków Powietrznych
+    - Producent dostarcza komplet instrukcji
+        - Instrukcja obsługi technicznej
+        - Instrukcja użytkowania w locie
+            - Najważniejsza dla nas
+            - Opis szybowca
+            - Masy szybowca
+                - max dopuszczalna masa w locie
+                - min i max masa załogi (min. pilot ze spadochronem 55 kg
+                  [spadochron 7 kg])
+                - dopuszczalne położenie środka cieżkości
+                - wzory tabliczek znamionowych
+                - masa balastu wodnego
+            - Prędkości
+                - prędkość minimalna (przeciągnięcia)
+                - max prędkość dopuszczalna
+                - max prędkość brutalnego sterowania (VA)
+                - dopuszczalne prędkości holowania za wyciągarką i za samolotem
+                - oznakowanie prędkościomierza
+                    - prędkości klap
+                - prędkości pilotażowe
+                    - prędkości, z których należy rozpoczynać figury pilotażowe
+                    - na tabliczce znamionowej w kabinie
+            - Osiągi szybowca
+            - Instrukcja montażu, demontażu, załadunku
+            - Bezpieczniki lin holujących
+                - 7000 N
+- Tabliczka załadunku
+    - Minimalny ciężar w pierwszej kabinie
+    - Minimalny i maksymalny ciężar w drugiej kabinie
+- Osiągi szybowca
+    - Krzywa biegunowa (Cz/Cx)
+    - Krzywa biegunowa prędkości szybowca (W/V)
+        - Rys. 33
+    - Wariometr
+        - Rys. 34
+        - "dziurawy wysokościomierz"
+        - W szybownictwie czulszy niż w samolotach
+            - Wariometr skrzydełkowy
+        - Niedokładny przy gwałtowniejszych manewrach (zmianach prędkości)
+            - Kompensator (?) Energii Całkowitej (KWEC)
+            - Czujnik k-1
+        - Wariometr skompensowany i nieskompensowany w locie ustalonym (ze
+          stałą prędkością) pokazują te same wartości
+        - Wariometr nieskompensowany przekłamuje przy zmianach prędkości
+    - Wpływ zmian warunków na osiągi
+        - Rys. 35
+        - Zwiększenie ciężaru szybowca o X % spowoduje konieczność zwiększenia
+          pozostałych prędkości szybowca o 1/2 X % (poza maksymalną)
+        - Maksymalna doskonałość szybowca nie zależy od cieżaru (w
+          uproszczeniu)
+        - Balast wodny stosujemy, aby zwiększyć doskonałość szybowca przy
+          lotach z większymi prędkościami (koszt: dłuższe wznoszenie, itd.)
+        - Lot pod wiatr - prędkości charakterystyczne należy zwiększyć o ok.
+          1/2 prędkości wiatru
+        - Zmiana wysokości - zmienia się (ro) w równaniu
+            - Zwiększenie prędkości z wysokością (ground speed większa od
+              indicated speed)
+                - 1 km - 5%
+                - 2 km - 10%
+                - 3 km - 15%
+                - 5 km - 30%
+                - 10 km - 80%
+        - Klapy
+            - Na szybowcach z mechanizacją skrzydeł stosuje się klapy ze wychyleniem
+              dodatnim i ujemnym - patrz wykres krzywych Cz/Cx
+            - Rys. 36
+        - Hamulce aerodynamiczne
+            - Służą do zmniejszenia doskonałości szybowca
+            - Doskonałość z otwartymi hamulcami nie powinna przekraczać 7
+            - Szybowiec z otwartymi hamulcami w locie nurkowym pod kątem 45 stopni nie
+              powinien przekroczyć prędkości dopuszczalnej
+        - Położenie środka ciężkości
+            - Rys. 37
+            - Zbiorniki na wodę w ogonie służą do zmiany położenia środka
+              cieżkości
+            - Środek cieżkości przesunięty do tyłu powoduje większą nerwowość,
+              czułość na stery, ale też zmniejszoną stateczność
+
+- Przelot szybowcowy
+    - Rys. 38
+    - Prędkość duszenia - ok. 0.2 prędkości wznoszenia
+    - Metoda średnich prędkości przeskokowych
+        - Rys. 39
+    - Metoda chwilowych prędkości przeskokowych
+        - Rys. 40
+        - Krążek kalkulacyjny McCready'ego 
+            - Największa doskonałość - ustawiamy trójkąt na 0
+                - Przy spokojnej atmosferze wariometr pokazuje opadanie własne
+                  przy prędkości optymalnej
+    - Krążenie z wiatrem w ogon - technika lotu balonowego
+    - Biegunowa krążenia
+        - Rys. 41 + Rys. 42
+        - Optymalne krążenie zwykle przy przechyleniu 40 stopni
+- Przygotowanie do lotu
+    - Wyhangarowanie szybowca
+        - pod kierunkiem instruktora/pilota z licencją
+    - Sprawdzenie i uzbrojenie szybowca
+        - wypełnienie i podpisanie pedetu
+        - uzbrojenie
+            - spadochron
+            - akumulator
+- Przygodne lądowanie
+    - 500m - decyzja co do miejsca
+    - 300m - nie wolno szukać noszeń, trzeba się przygotować do lądowania
+    - długość pola 200 m + 10 m na każdą przeszkodę na podejściu
+    - po wybraniu i obejrzeniu miejsca lądowania i rozpoczęciu kręgu nie można
+      stracić z oczu punktu przyziemienia
+    - wybór pola
