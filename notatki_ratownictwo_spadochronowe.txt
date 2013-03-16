@@ -1,0 +1,85 @@
+RATOWNICTWO SPADOCHRONOWE
+- p. Tomasz Prusak
+
+- Budowa spadochronu
+    - pilocik
+    - TODO doczytać
+- SP-6
+    - Rys. 32
+    - 20 klinów, 20 linek nośnych
+    - Zakres użycia - od 0 do 300 km/h
+    - Minimalna wysokość otwarcia 100m
+        - przy prędkości 120-300 km/h
+    - Skok z balonu/śmigłowca wysokość minimalna 150m
+    - pionowa pr∂kość opadania - nie większa niż 6m/s
+    - prędkość pozioma - nie mniejsza niż 2-3 m/s
+    - możliwość sterowania za pomocą taśm nośnych
+    - ułożenie do skoku - 120 dni
+    - powierzchnia 43 m^2
+- ATL 88/90
+    - 20 klinów, 20 linek nośnych
+    - prędkość użycia 0-330 km/h
+        - do 100m
+    - ułożenie do skoku - 360 dni
+- SK-94
+    - zakres użycia 0-270 km/h
+    - minimalna wysokość 70m przy 130 km/h
+        - 150m ze śmigłowca
+        - 80m z balonu
+    - ułożenie do skoku - 180 dni
+- S-4
+    - spadochron siedzeniowy
+    - bardzo stary
+    - jedyny, który nie składa się z klinów, tylko z płatów
+    - głównie do samolotów (awionetek)
+    - zakres prędkości do 400 km/h
+    - minimalna wysokość 60m przy 100 km/h
+        - ze śmigłowca 120m
+    - ułożenie do skoku - 120 dni
+- Przygotowanie spadochronu do lotu
+    - plomba (data ważności, pieczątka i podpis układacza)
+    - uchwyt (ruchomość linki w wężu osłaniającym)
+        - gdyby wypadła, wkładamy od dołu do góry
+    - stan zamków uprzęży
+    - ogólny wygląd pokrowca (plamy, zabrudzenia, itp.)
+    - taśmy nośne
+    - zapięcie ściągaczy
+    - stan zatrzasków przy poduszce plecowej (spadochron typu S-4)
+    - dopasowanie uprzęży
+- Czynności przed skokiem
+    - Odłączyć się od aparatury pokładowej
+    - Odrzucicć osłonkę kabiny lub drzwi
+    - Rozpiąć pasy fotela
+    - Wykonać skok
+- Meldunek
+    - jeśli jest czas (>3 minuty)
+    - podać:
+        - rodzaj i typ statku powietrznego
+        - jego znaki rejestracyjne
+        - przybliżona pozycja
+    - w samolocie dodatkowo:
+        - zamknąć dopływ paliwa
+        - wyłączyć iskrowniki
+        - skierować statek powietrzny w obszar niezamieszkany
+    - nadać w ciemno, nie czekać na potwierdzenie
+- Metody wykonania skoku ratowniczego
+    - Skok przez burtę lub drzwi
+        - lot ustalony poziomy (ślizgowy) i znajduje się >200 m nad terenem
+        - gdy konfiguracja lotu jest nieustalona - niesterowalne ewolucje -
+          wysokość powyżej 300m nad terenem
+    - Metoda zrywu
+        - jesli statek powietrzny będzie na mniejszej wysokości, niż powyżej
+        - wystawiamy się na strugi powietrza
+            - plecami - spadochrony sp-6/sp-6m, sk-96, atl-88/90 (system
+              plecowy)
+            - siedzeniem - spadochron s-4 (system siedzeniowy)
+        - pozycja embrionalna po wyskoczeniu
+- Metoda przez burtę
+    - ze statku, gdzie wsiada się przez burtę
+        - stanąć obiema nogami na fotelu, następnie jedną nogę oprzeć o burtę i
+          odbić się od niej pod kątem 45 stopni od kadłuba
+    - szybowiec wyczynowy, pozycja leżąca
+        - uchwycic obiema rękami burtę, wyciągnąć nogi spod tablicy przyrządów
+- Korkociąg - skakać do środka zwitki
+- 3 sekundy opóźnienia między wyskoczeniem a otwarciem (metoda "121, 122, 123")
+- 10s lotu = 340m wysokości mniej
