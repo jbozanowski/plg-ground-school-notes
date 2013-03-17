@@ -112,7 +112,7 @@
               powietrza do ilości, która to powietrze nasyci w danej
               temperaturze razy sto i wynik otrzymujemy w procentach.
         - Wilgotność bezwzględna
-            - Gęstość pary wodnej wyrażona w (kilo)gramach na metr sześciennych.
+            - Gęstość pary wodnej wyrażona w (kilo)gramach na metr sześcienny.
         - Wilgotność właściwa
             - Ilość pary wodnej w gramach w 1 kg powietrza.
     - Ze wzrostem temperatury maksymalna ilość pary wodnej wzrasta a ze
