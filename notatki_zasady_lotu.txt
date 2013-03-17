@@ -187,6 +187,7 @@
             - na powierzchniach sterowych
     - Środek parcia
         - Punkt, w którym moment aerodynamiczny jest 0.
+        - Prawie to samo, co środek aerodynamiczny profilu
     - Doskonałość szybowca
         - stosunek siły nośnej do oporu
         - d = Cz/Cx
@@ -290,4 +291,3 @@
           w dół
             - Aby tego uniknąć, lotka musi być wyważona tak, aby środek obrotu
               był za środkiem ciężkości.
-

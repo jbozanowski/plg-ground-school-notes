@@ -312,6 +312,7 @@
           lądowanie TREND lub nie)
     - SPECI
         - Depesza z wynikami specjalnie wybranych obserwacji
+        - Też może mieć prognozę na lądowanie TREND
     - SIGMET
         - Informacje dotyczą zjawisk, które wystąpiły lub mogą wystąpić, a
           które mają wpływ na bezpieczeństwo lotów
@@ -337,3 +338,83 @@
                 - QNE - standardowe ciśnienie 1013.2 hPa
             - widzialność - do 5000 m
             - 120.45
+- Rodzaje prądów wznoszących, czyli termiki
+    - Termiką nazywamy wszelkiego rodzaju pionowe prądy powietrzne bez względu
+      na to, jaki rodzaj energii jest bezpośrednią przyczyną ich powstawania.
+    - Woda, las nagrzewają się wolniej, ale dłużej oddają ciepło - w drugiej
+      połowie dnia można próbować łapać noszenie.
+    - Rozróżniamy termiki:
+        - Termika wypracowana cumulusowa i bezchmurna
+            - Cumulusowa
+                - Rys. 43
+                - Termika wypracowana cumulusowa powstaje w obszarach wysokiego
+                  ciśnienia podczas słonecznych dni przy słabym wietrze lub
+                  ciszy.  Powstają ogniska termiczne wytwarzające prądy
+                  wstępujące, których efektem są chmury cumulus.
+                - Cumulusy są wznoszone przez wiatr i tworzą się łańcuchy
+                  cumulusów, w którym każda chmura jest w innym stadium
+                  rozwoju.
+                - Termika rozpoczyna się ok. godz. 8-9 rano i kończy się latem
+                  ok. 19, a zimą ok. 16.
+                - Pęcherze ciepłego powietrza powstają co ok. 20 minut i są to
+                  kominy termiczne o średnicy 100-2000 m.
+                - Średnia prędkość wznoszeń 1-3 m/s w chmurze 3-5 m/s, a w
+                  cumulonimbusach 15 i więcej m/s. Poza kominami powietrze
+                  opada na większym obszarze, niż wznoszenie w kominie i
+                  dlatego prędkość opadania jest mniejsza
+                  niż prędkość wznoszenia w kominie.
+                - Dobre noszenie:
+                    - Cu z ciemną podstawą, jędrne
+                - Czasem, pod wklęsłym Cu tworzy się komin chmury - chmura sama
+                  ssie i tworzy komin.
+                    - Czasem z tego tworzy się Cb - może powstać burza
+                      termiczna
+            - Bezchmurna
+                - Termika wypracowana kończy się nie Cu, tylko warstwą
+                  inwersyjną (inwersja osiadania), od której się odbijamy.
+        - Termika naniesiona cumulusowa i bezchmurna
+            - Rys. 44
+                - Większe nachylenie, bo większy wiatr. W kominie turbulencja,
+                  ale lepsze noszenie - ok. 4 m/s
+                - Mogą się tworzyć chmury warstwowe na większej wysokości (As)
+                  przesłaniające słońce i uniemożliwiające tworzenie
+                  się termik. Trzeba omijać.
+            - Cumulusowa
+                - Powstaje podczas napływu powietrza arktycznego lub polarnego,
+                  które w skutek nagrzewania się od ciepłego podłoża uzyskuje
+                  równowagę chwiejną i są to sprzyjające warunki do rozwoju chmur o
+                  budowie pionowej. Powstają chmury cumulus, które mogą przerodzić
+                  się w chmury cumulonimbus.
+            - Bezchmurna
+                - Gdy zawartość wody jest niewielka, wiatr duży, mogą się nie
+                  tworzyć chmury.
+        - Termika wybrzeży (bryza morska)
+            - Rys. 45
+                - w dzień wiatry od morza, w nocy odwrotnie
+        - Wymuszone prądy zboczowe
+            - Rys. 46
+            - "latanie na żaglu" - wykorzystując prądy zboczowe
+            - Nie wolno przekraczać zbocza
+            - Sprzyjający kąt nachylenia zbocza: 30-40 stopni
+        - Prądy falowe
+            - Fala inwersyjna
+                - Rys. 47
+                - Inwersja ulega zafalowaniu w skutek działania wiatru z dwóch
+                  kierunków
+                    - potrzebny silny wiatr i gradient temperatury
+                - Noszenie na narastającym zboczu falowania, duszenie na
+                  opadającym zboczu
+                - Na szczycie fali tworzy się Ac lenticularis
+                    - długość kilkadziesiąt m
+                    - grubość kilka metrów
+                - Noszenia do 2 m/s
+                - Występuje na wysokości 3-4 km, więc w praktyce cieżko
+                  się tam dostać
+                - Bardziej praktyczne zastosowanie: zwiastun frontu chłodnego
+                  (w ciągu 1-2 dni)
+            - Fala górska (orograficzna) 
+                - Rys. 48
+                - używanie rotora i nawiązywanie kontaktu z falą
+                - długość soczewki - do 8 km
+                - długość linii grzbietowej w Tatrach ok. 50 km
+                - wysokość osiągana na fali tatrzańskiej 5-13 km (?)
