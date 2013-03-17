@@ -1,0 +1,36 @@
+dr inż. Radosław Schoeneich
+
+Materiały:
+    - Urząd Komunikacji Elektronicznej, strona internetowa
+    - Dokument ICAO 4444 - protokoły komunikacji, słownictwo, etc.
+
+- Zakres częstotliwości używanych w komunikacji lotniczej 118 do 136,975 MHz
+- Odstęp między kanałami 25 kHz - 759 kanałów łączności
+    - od 1999 r. na niektórych obszarach ruchu lotniczego Europy obowiązuje
+      odstęp międzykanałowy 8,33 kHz. Wkrótce prawdopodobnie wszędzie.
+- Antena w statku powietrznym powinna być pionowo (brak łączności na
+  przedłużeniu anteny - nie szkodzi, jeśli występuje dokładnie ponad i poniżej
+  statku powietrznego)
+- Rodzaje depesz i kolejność pierwszeństwa
+    - Sygnały o niebezpieczeństwie, depesze o niebezpieczeństwie (3xMAYDAY)
+    - Depesze pilne łącznie z depeszami poprzedzonymi sygnałem transportu
+      medycznego (PAN PAN, PAN PAN MEDICAL),
+    - Korespondencja dotycząca radionamierzania,
+    - Depesze dotyczące bezpieczeństwa lotów,
+    - Depesze meteorologiczne,
+    - Depesze dotyczące regularności lotów.
+- 121.5 - międzynarodowa częstotliwość współna
+- 123.1 - częstotliwość używana podczas akcji poszukiwawczo-ratowniczej
+- Literowanie: 5 - "piątka", można też 1 - "jedynka"
+- Czytanie:
+    - 1700 m - "jeden tysiąc siedemset metrów"
+- Łączność radiotelefoniczna w niebezpieczeństwie
+    - Poprzedzona powtarzanym trzykrotnie sygnałem MAYDAY powinna być
+      przekazywana na używanej w tej chwili częstotliwości
+    - Informacje w następującej kolejności
+        - nazwa stacji, do której depesza jest adresowana,
+        - znaki identyfikacyjne statku powietrznego,
+        - rodzaj sytuacji niebezpiecznej,
+        - zamiar dowódcy statku powietrznego,
+        - aktualna pozycja,
+        - rodzaj oczekiwanej pomocy
