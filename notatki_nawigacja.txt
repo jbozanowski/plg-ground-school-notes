@@ -1,0 +1,182 @@
+Marek Sałek
+
+- "Nawigacja" (Pelgagia Majewska, Andrzej Pazio)
+
+- Prawa Keplera
+- Peryhelium - Ziemia jest najbliżej Słońca (2 stycznia, 147 mln km)
+- Aphelium - Ziemia jest najdalej Słońca (3 lipca, 152 mln km)
+- Średnia odległość Ziemi od Słońca 150 mln km.
+- Ruch obrotowy ziemi - z zachodu na wschód, prawoskrętny
+- Płaszczyzna obrotu ziemi do płaszczyzny orbity - 66 stopni 33 minuty, zawsze
+  skierowana w stronę Gwiazdy Północnej.
+    - powoduje zmienność warunków oświetlenia ziemi
+    - Ruch obiegowy ziemi, przesilenia
+        - 21.03 - równonoc
+        - 22.06 - przesilenie letnie
+        - 23.09 - równonoc
+        - 22.12 - przesilenie zimowe
+- Zwrotniki - dł. geogr.
+- Siła Coriolisa
+- Promień Ziemi R = 6371 km (przyjmuje się, gdyż geoida), obwód 40000 km.
+- Długości i szerokości geograficzne
+    - Długość:
+        - Południki geograficzne - ślady, utworzone na powierzchni kuli
+          ziemskiej przez płaszczyzny przechodzące przez oś Ziemi i bieguny.
+        - (lambda) - (0, 180 stopni) E, W
+        - długość jednego stopnia długości geograficznej na równiku: 111 km
+        - długość jednej minuty na równiku: 1 minuta = 1852 m = 1 Nm (mila
+          morska)
+    - Szerokość:
+        - Równoleżniki są utworzone na powierzchni kuli ziemskiej przez jej
+          przecieęcie płaszczyznami, prostopadłymi do osi.
+        - kąt między równikiem  a punktem
+        - dystans = (długość, delta lambda) * cos (szerokości geogr.)
+    - Znać definicje dł. i szer.
+    - Wielkie koło - ślad płaszczyzny przecinającej kulę ziemską,
+      która zawiera jej środek
+        - Ortodroma - krótszy odcinek wielkiego koła, będący najkrótszą drogą
+          między dwoma punktami na płaszczyźnie.
+    - Loksodroma to krzywa łącząca dwa punkty na kuli ziemskiej
+      przecinające południki pod tym samym kątem.
+        - Im dalej na północ, tym różnica długości między ortodromą i
+          loksodromą jest większa.
+MAPY LOTNICZE
+    - Rzutowania
+        - Można osiągnąć wierność tylko jednego elementu:
+            - wierność kątów
+            - wierność długości linii
+            - wierność powierzchni
+        - Cztery rodzaje rzutów
+            - Rzuty walcowe - okolice równika
+                - Kula ziemska jest rzutowana na powierzchnię boczną walca,
+                  która jest następnie rozwijana do płaszczyzny. Walec
+                  najczęściej przykłada się tak, żeby stykał się z kulą ziemską
+                  na równiku, chociaż można też inaczej.
+                    - wierność kątów
+                    - odwzorowanie Merkatora
+                        - oś Ziemi pokrywa się z osią walca, promień ziemi
+                          pokrywa się z promieniem walca
+                - Wada - rozciągnięcie powierzchni im dalej od równika
+                - Loksodroma - linia prosta
+                - Ortodroma - jest krzywą skierowaną wypukłością w
+                  stronę bliższego bieguna
+            - Rzuty stożkowe
+                - Stożkowe
+                    - Otrzymuje się poprzez rzutowanie ze środka kuli ziemskiej
+                      punktów leżących na jej powierzchni na pobocznicę stożka
+                      styczną do kuli. Oś stożka pokrywa się z osią kuli ziemskiej.
+                    - Południki i równoleżniki nie przecinają się pod kątem
+                      prostym.
+                - Wielostożkowe
+                    - kilka stożków, zachowana skala odległości
+                - Ortodroma
+                - Loksodroma
+                    - na półkuli północnej wygięta w dół stosunku do ortodromy
+            - Rzuty na płaszczyznę - okolice podbiegunowe
+                - Rzutowanie punktów na powierzchni kuli ziemskiej
+            - Rzuty dowolne
+    - Skala mapy
+        - w lotnictwie najczęściej skala 1:500
+LOTNICZA BUSOLA MAGNETYCZNA
+    - Kompas - pokazuje biegun północny magnetyczny
+    - Deklinacja magnetyczna (zboczenie magnetyczne) - kąt zawarty między
+      południkiem geograficznym a magnetycznym. Dodatnia - wschodnia, ujemna -
+      zachodnia. W różnych punktach ziemi ma różne wartości i podlega okresowym
+      wahaniom.
+        - Izogony - linie łączące punkty o jednakowej wartości deklinacji.
+        - Numery dróg startowych są od kierunków magnetycznych - zdarza się, że
+          w skutek zmian czasowych trzeba zmieniać.
+    - Inklinacja - kąt pomiędzy składową główną a składową poziomą linii sił
+      pola magnetycznego Ziemi.
+        - Izoklina - linia łącząca punkty o jednakowej wartości inklinacji.
+        - Na równiku inklinacja 0 stopni, na biegunie 90 stopni
+    - Błędy busoli
+        - Współczynnik tłumienia
+            - Stosunek dwu kolejnych amplitud pływaka busoli wytrąconego ze
+              stałego położenia.
+        - Zastój pływaka
+            - Gdy odchylimy pływak busoli o pewien kąt, nie powróci on
+              dokładnie do poprzedniego położenia, lecz ustawi się na nowym
+              kierunku, różniącym się od poprzedniego o kąt rzędu 1 do 1.5
+              stopnia zwany kątem zastoju pływaka.
+        - Pociąganie cieczy
+            - Podczas wykonywania zakrętu, ścianki obracającej się busoli
+              pociągają za sobą ciecz, ta z kolei pociąga pływak, który
+              powinien pozostawać nieruchomy. 
+        - Błąd ustawienia
+            - Gdy oś busoli nie pokrywa się z osią podłużną statku
+              powietrznego.
+        - Błąd północny busoli
+            - Podczas zakrętu busola i jej pływak przechylają się pod wpływem
+              siły odśrodkowej. Wykonując na półkuli północnej zakręt w stronę
+              północy, należy wyjść z zakrętu przed oczekiwanym kursem wg
+              wskazań kompasu (zwykle ok. 20 stopni przed)
+                - "przed północą, po południu"
+        - Błąd wschodu i zachodu
+            - Objawia się na kursie wchodnim lub zachodnim na skutek
+              przyspieszeń/zwolnień - ciężarek na busoli pod wpływem
+              bezwładności odchyli się przy zmianach prędkości. 
+        - Wskazania busoli są miarodajne tylko w locie z ustaloną prędkością.
+        - Dewiacja busoli
+            - Odchylenia igły busoli na skutek działania pola magnetycznego
+              metalowych części statku powietrznego. Inymi słowy: dewiacja jest
+              to kąt zawarty między południkiem magnetycznym, a południkiem
+              busoli.
+                - Dewiacja dodatnia (wschodnia) - jeśli północny koniec igły
+                  odchylony jest od północnego końca.
+            - Dewiacja półokrężna
+                - Części stalowe szybowca wytwarzają pole magnetczne, które w
+                  stosunku do podłużnej osi szybowca ma stały kierunek i stałe
+                  natężenie. Dewiacja półokrężna ma właściwości:
+                    - przy zmianie kursu o 360 stopni dwukrotnie osiąga
+                      maksymalne wartości i dwukrotnie jest równa zeru
+                    - na kursach przeciwnych równa jest co do wartości, lecz
+                      przeciwna co do znaku,
+                    - można ją całkowicie skompensować
+            - Dewiacja ćwierćokrężna
+                - Przez ferromagnetyki miękkie, które zmieniają bieguny
+                - Np. części żelazne
+                - natężenie pola magnetycznego tych części zmienia się wraz ze
+                  zmianą ich położenia w stosunku do południka magnetycznego,
+                  wywołaną przez zmianę położenia podkłużnej osi szybowca
+                - Właściwości:
+                    - Przy zmianie kursu o 360 stopni czterokrotnie osiąga
+                      maksymalne wartości i cztery razy jest równa zeru
+                    - Na kursach przeciwnych równa jest co do wartości i do
+                      znaku
+                    - Nie można jej całkowicie skompensować
+            - Busolę raz w roku należy skompensować
+
+DEFINICJE STOSOWANE W NAWIGACJI
+- Określanie kierunków
+    - kierunki kardynalne: N/S/E/W, pośrednie (NE, SW, itd.)
+    - azymut
+- KDG - kąt drogi geograficznej    
+    - kąt między linią drogi, a południkiem geograficznym
+- KDM - kąt drogi magnetycznej
+    - kąt między linią drogi, a południkiem magnetycznym
+- Kurs
+    - Kąt między południkiem, a osią podłużną szybowca
+        - geograficzny
+        - magnetyczny
+        - busoli
+    - Przeliczanie kursów między magnetycznym/busoli/geograficznym:
+        - Przechodząc do kursu geograficznego przez magnetyczny do kursu busoli
+          odejmujemy algebraicznie poprawki (delta M i delta B), a przechodząc
+          od kursu busoli do geograficznego przez magnetyczny dodajemy
+          poprawki.
+        - Rys. 49:
+            - KM = KG - (+/- delta M)
+            - KB = KM - (+/- delta B)
+            - KM = KB + (+/- delta B)
+            - KG = KM + (+/- delta M)
+- Wiatr
+    - Rys. 50
+    - kurs vs kąt drogi
+        - KZ - kąt znoszenia
+CZAS
+    - południk 180 - Międzynarodowa Linia Zmiany Daty
+    - Pomiędzy czasem świtu i zmierzchu wykonuje się loty dzienne w przestrzeni
+      klasy G.
+        - Zmierzch - słońce 6 stopni poniżej linii horyzontu.
+    - Tabela wschodów i zachodów słońca (AIP. GEN 2.7)
