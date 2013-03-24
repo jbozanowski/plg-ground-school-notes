@@ -1,0 +1,180 @@
+Piotr Szczepański
+
+- 7. kwietnia zaliczenie
+    - 5 pytań z prawa, 5 pytań z przepisów ruchu lotniczego
+    - można korzystać z notatek
+- Księgarnia Pelta - wydawnictwa o tematyce lotniczej
+- Na stronie ULC: Prawo, Prawo Krajowe, odesłania do aktów wykonawczych
+
+ŹRÓDŁA PRAWA
+- Międzynarodowe konwencje lotnicze
+    - Aneksy do konwencji
+- Traktaty międzynarodowe
+    - Traktat akcesyjny Polski do UE (2004)
+- Ustawy krajowe
+    - Akty wykonawcze są zawarte albo w rozporządzeniach rady ministrów albo w
+      rozporządzeniach ministrów właściwych (merytorycznych)
+- Akty wykonawcze
+    - Rozporządzenia/dyrektywy Komisji Europejskie
+- Prawo zwyczajowe
+    - "dobra praktyka lotnicza"
+- Regulacje szczegółowe
+    - Programy szkolenia
+    - Instrukcje użytkowania statków powietrznych
+        - Nie tylko modelu, ale konkretnego egzemplarza
+    - Instrukcja wykonywania lotów (kiedyś), obecnie: instrukcja operacyjna dla
+      poszczególnych ośrodków
+    - Instrukcje operacyjne/użytkowania lotnisk
+        - AIP - Aeronautical Information Publication
+            - Tom I - przepisy
+            - Tom II - lotniska (publiczne)
+        - AIP-VFR
+            - Przepisy
+            - Lotniska (użytku wyłącznego - nie komunikacyjne: trawiaste,
+                        aeroklubowe, itp.)
+- NOTAM
+    - I klasy
+        - doraźne
+    - II klasy
+        - raz w miesiącu
+
+MIĘDZYNARODOWE KONWENCJE LOTNICZE
+- Konwencja Paryska (1919)
+    - pierwsza konwencja, po I W. Św.
+    - Konwencja Urządzająca Żeglugę Powietrzną podpisana w Paryżu 13.10.1919
+    - Polska była sygnatariuszem
+    - Nakładała obowiązek wprowadzenia postanowień konwencji na obszar
+      kraju-sygnatariusza
+    - Wprowadziła dwie podstawowe zasady prawa lotniczego:
+        - Zasada suwerenności państwa nad swoją przestrzenią powietrzną
+            - Państwo miało prawo ustalać zasady dostępności do przestrzeni,
+              swoją jurysdykcję i władzę lotniczą
+            - Musiało wprowadzić zasadę nieużywania broni wobec cywilnych
+              statków powietrznych - później w Konwencji Chicagowskiej
+            - Państwo było odpowiedzialne za regulowanie ruchu lotniczego
+        - Zasada przynależności państwowej statku powietrznego
+            - wynikające obowiązki:
+                - każdy statek powietrzny musi być zarejestrowany w rejestrze
+                  cywilnych statków powietrznych
+                - obowiązek umieszczania na statku znaków przynależności
+                  państwowej
+- Konwencja Warszawska (1929)
+    - dotycząca ujednostajnienia prawideł międzynarodowego przewozu lotniczego
+      12.10.1929
+    - uporządkowała sprawy związane z przewozem lotniczym
+        - definicja przewozu lotniczego:
+            - Przewóz lotniczy to przewóz pasażerów, bagażu, towarów lub
+              poczty wykonywany statkiem powietrznym odpłatnie.
+    - wprowadziła dokumenty związane z przewozem
+        - bilet podróżny
+        - kwit bagażowy
+        - przewozowy list lotniczy (w przypadku przesyłki lotniczej)
+    - uregulowała odpowiedzialność przewoźnika za szkody powstałe w związku z
+      przewozem
+        - wprowadziła zasadę domniemania odpowiedzialności za powstałą szkodę
+        - wprowadziła limity kwotowe górnej granicy odpowiedzialności
+- Konwencja Chicagowska (1944)
+    - podpisana 7.12.1944 w Chicago
+    - przystąpienie do Konwencji Chicagowskiej oznaczała konieczność
+      wypowiedzenia Konwencji Paryskiej
+    - Polska nie była sygnatariuszem Konwencji Chicagowskiej, stała
+      się sygnatariuszem dopiero 20.11.1958
+    - Zachowała poprzednie dwie zasady, wprowadziła kolejne:
+        - Zasada przestrzegania bezpieczeństwa w lotnictwie cywilnym
+        - Zasada niedyskryminowania się między stronami konwencji
+    - Składała się z dokumentów:
+        - Pierwszy dokument: Układ Tymczasowy (przejście z innych konwencji)
+            - wszedł w życie 6.06.1945 (aby sygnatariusze mieli czas się z nim
+              zapoznać)
+        - Konwencja właściwa - o międzynarodowym lotnictwie cywilnym
+            - weszła w życie 4.04.1947
+        - Dokument dotyczący międzynarodowego przewozu lotniczego ("dokument o
+          pięciu wolnościach lotniczych")
+    - Jako organ wykonawczy Konwencja powołała ICAO
+        - International Civil Aviation Organisation (Międzynarodowa Organizacja
+          Lotnictwa Cywilnego)
+        - 18 aneksów do Konwencji (Rys. 52)
+            - najważniejsze to 2, 6, 11, 13
+                - Kiedyś zamiast 2. były Szczegółowe Techniczne Zasady Ruchu
+                  Lotniczego, obecnie 2. + szczegóły w AIP.
+    - Zmiany wynikające z rozwoju lotnictwa cywilnego
+        - Konwencja Tokijska 14.09.1963
+            - Ustaliła zasady odpowiedzialności za przestępstwa na pokładzie wg
+              rejestracji statku powietrznego
+        - Konwencja Haska 16.12.1970
+            - Wprowadziła obowiązek karania i zasady jurysdykcji za
+              uprowadzenia statków powietrznych
+        - Konwencja Montrealska 1.10.1971
+            - Wprowadziła obowiązek ścigania sprawców czynów naruszających
+              bezpieczeństwo w lotnictwie cywilnym
+- Kolejne (po KC) zmiany w regulacjach prawnych
+    - Powstanie ECAC (European Civil Aviation Conference) w 1954 r.
+        - Jako swój organ wykonawczy powołała JAA (Joint Aviation Authority)
+            - Wydawało przepisy sygnowane JAR - Joint Aviation Requirements
+                - Rys. 53
+    - EASA (European Aviation Safety Agency) - Europejska Agencja
+      Bezpieczeństwa Lotniczego - 2004 r.
+        - JAR -> PART
+
+USTAWA "PRAWO LOTNICZE"
+- Rys historyczny:
+    - Pierwszą regulacją jeśli chodzi o Prawo Lotnicze było Rozporządzenie
+      Prezydenta RP z 14.03.1928 "O Prawie Lotniczym"
+        - Było realizacją zasady wynikającej z Konwencji Paryskiej, mówiącej, że
+          postanowienia Konwencji sygnatariusz ma obowiązak wprowadzić na swój
+          obszar prawny
+        - Funkcjonowało aż do 31.05.1962 (z nowelizacją ustrojową 45 r.)
+    - 31.05.1952 Sejm uchwalił Prawo Lotnicze, które funkcjonowało do listopada
+      2002.
+- Ustawa Prawo Lotnicze została uchwalona przez Sejm 3.07.2002
+- Opublikowana w Dzienniku Ustaw nr 130 18.08.2002 (weszła w życie 3 miesiące
+  później, w listopadzie)
+- W Dzienniku Ustaw nr 100 został ogłoszony tekst jednolity, który funkcjonował
+  aż do nowelizacji ustawy, a dokładniej:
+- Wydanie ustawy o zmianie ustawy 18.08.2011
+- Tekst jednolity ukazał się 16.08.2012 - ten tekst jest na stronie ULC
+- W artykule 2. są definicje - warto przyswoić
+- Treść ustawy
+    - Art. 1 + 2
+        - Uregulowania generalnie dotyczą lotnictwa cywilnego, ale uregulowania
+          mogą dotyczyć też lotnictwa wojskowego, jeśli statek powietrzny
+          będzie służył do celów cywilnych
+            - Muszą być spełnione warunki
+                - Musi mieć rejestrację cywilną
+                - Musi być wpisany do rejestru statków cywilnych
+                - Musi być prowadzony przez załogę posiadającą odpowiednie
+                  licencje (cywilne)
+    - Art. 3
+        - Minister wprowadza rozporządzeniem regulację ECAC/ICAO/EASA
+    - Art. 6, 8
+    - Dział 2 - Administracja Lotnictwa Cywilnego
+        - Rys. 51
+            - Naczelny Lekarz
+                - rozpatruje odwołania
+        - Na pytania o wydawanie licencji, rejestracji statków, itd. należy
+          odpowiadać, że robi to prezes organizacji, a nie organizacja!
+        - Zwrócić uwagę na zakres kompetencji prezesa ULC - Art. 21.
+            - sprawdzanie kwalifikacji personelu lotniczego
+            - sprawdzanie zdatności do lotu
+            - wydawanie dziennika urzędowego
+            - ... (ok. 30 pozycji)
+        - instytucja podmiotu upoważnionego
+            - Art. 22 ustawy
+            - funkcjonariusze podlegli prezesowi ULC, podejmujący decyzję w
+              drobniejszych sprawach (kwalifikacje, lądowiska)
+        - W nowelizacji ustawy wprowadzono rozdział 2A dot. opłaty lotniczej i
+          wpłaty lotniczej
+    - Dział 3 - Statki powietrzne
+        - Art. 31
+            - Jakie statki lotnicze mogą być dopuszczone do lotu
+                - Musi być wpisany do rejestru statków powietrznych
+                - Muszą posiadać znaki rozpoznawcze
+                - Muszą posiadać zdatność do lotów
+        - Art. 35
+            - mówi czyj statek powietrzny może być wpisany do rejestru
+                - obywatela polskieg
+                - polskiej osoby prawnej
+                - jednostki organizacyjnej bez osobowości prawnej
+                - cudzoziemca ze stałym pobytem na terytorium Polski
+        - Art. 45
+            - Dział dot. zdatności statków powietrznych do lotu
