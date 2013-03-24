@@ -1,0 +1,82 @@
+Alina Szajkowska
+
+UKŁAD ODDECHOWY
+- Prawo Boyle'a/Marriotta (?) - w stałęj temperaturze objętość gazu jest
+  odwrotnie proporcjonalna do ciśnienia.
+  P * V = const
+  P1/P2 = V1/V2
+- Prawo Clapeyrona
+    p * V = n * R * T
+- Prawo Charlesa 
+- Prawo Henry'ego
+- Prawo Daltona
+    - Ciśnienie cząstkowe tlenu w suchym powietrzu na średnim poziomie morza:
+      PO2 = 760 mmHg * 0.2094 = 159.2 mmHg
+        - Powyżej 4000 m potrzebna aparatura tlenowa
+        - Powyżej 8000 m potrzebny czysty tlen na nadciśnieniu
+        - Powyżej 11000 m tlen nie dostanie się już do organizmu
+- Średnia częstość oddechów człowieka na minutę = 16
+
+UKŁAD KRĄŻENIA
+- Średnia częstość uderzeń serca 72 uderzenia na minutę
+- Tlen jest w 98% transportowany poprzez hemoglobinę, reszta jako rozpuszczony
+  gaz. CO2 w postaci jonów kwasu węglowego.
+- Krzywa dysocjacji hemoglobiny
+- Niedotlenienie = Hipoksja
+    - Rodzaje:
+        - anoksyczne
+            - po prostu brak/niedobór tlenu
+        - anemiczne
+            - np. tlenek węgla
+        - zastoinowe
+        - histotoksyczne
+            - np. zatrucie cyjankami (zablokowane tkanki)
+    - Objawy
+        - w lotnictwie najczęściej pierwszym objawem jest utrata przytomności
+    - Ostra hipoksja wysokościowa, AKA choroba wysokościowa
+        - nie mylić z chorobą wysokogórską
+- Hiperwentylacja
+    - problemy przez utratę dwutlenku węgla, nie tlenu
+        - powoduje zasadowicę oddechową
+- Czas rezerwowy
+- Ciśnienie różnicowe kabiny
+- Ciśnienie absolutne    
+    - suma atmosferycznego + różnicowe
+- Meteoryzm ciśnieniowy - rozszerzanie się gazów w ciele
+- Choroba dekompresyjna
+    - Ochrona: oddychanie czystym tlenem - desaturacja - pozbywamy się azotu.
+    - Nie należy latać przez 24h po nurkowaniu podwodnym (poniżej 7m i powyżej
+      godziny).
+
+PRZECIĄŻENIA
+- Trzeba znać kierunki przeciążeń
+    - Gz
+        - oś podłużna ciała (nogi-głowa)
+        - bradykardia - przy ujemnych przeciążeniach
+    - Gy
+    - Gx
+        - oś strzałkowa
+
+FIZJOLOGIA WIDZENIA
+- Refrakcja: rogówka, soczewka, ciało szkliste
+- Rodzaje widzenia
+    - Widzenie fotopowe - dzienne
+    - Widzenie skotopowe - przy złym oświetleniu
+    - Widzenie mezopowe
+- Akomodacja
+
+FIZJOLOGIA SŁYSZENIA
+- Układ przedsionkowy
+- Choroba powietrzna = choroba lokomocyjna
+
+CIEPŁO
+- Drogi wymiany ciepła
+    - Promieniowanie - główna droga oddawania ciepła z organizmu
+- Hipotermia
+    < 34 stopni C
+- Hipertermia
+
+PSYCHOLOGIA
+- Kinesceza - czucie głębokie
+- Błędy obwodowe vs błędy ośrodkowe
+- Źródła stresu
