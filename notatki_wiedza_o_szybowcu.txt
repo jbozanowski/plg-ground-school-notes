@@ -1,0 +1,82 @@
+Klasy szybowców
+    - ...
+    - Klasa standard
+        - Przykłady
+            - Disqus 2
+    - Klasa 15m
+        - mogą mieć pełną mechanizację skrzydła
+        - zabierają balast wodny
+        - mają chowane podwozie
+        - doskonałości ok. 50
+        - Przykłady
+            - ASW
+            - Ventus 2 (15m)
+            - Diana 2
+    - Klasa 18m
+        - mogą mieć pełną mechanizację skrzydła
+        - zabierają balast wodny
+        - mają chowane podwozie
+        - doskonałości ok. 50
+        - Przykłady
+            - Ventus 2
+            - ASG 29 (18m, d50)
+            - Disqus 2 (Klasa Standard, ale ma 18m)
+            - LS8
+            - JS1A
+            - ASH26
+                - jako jedyny ma silnik startowy
+    - Klasa otwarta
+        - nieograniczona rozpiętość skrzydeł
+        - nieograniczona mechanizacja
+        - nieograniczone miejsce w kabinie
+        - jedyne ograniczenie: masa startowa szybowca - nie więcej niż 815 kg.
+        - Przykłady
+            - ASW22 (, d. 60)
+            - Nimbus 4 (26m, d. 60)
+            - Eta (30m, d. 70+)
+                - hybryda, silnik startujący, dwumiejscowy
+                - nie jest certyfikowany do startu z wyciągarką
+            - ASH25 (26m)
+                - dwumiejscowy
+            - Nimbus 4D (26m, d. 60)
+            - JS1C
+                - nowy typ, ma albo krążyć, albo latać szybko
+            - Quintus (26m?)
+                - ditto
+
+    - Klasa dwumiejscowa (?)
+        - Przykłady
+            - Arqus (?) (d. 50+)
+                - nowatorski kształt skrzydła
+BUDOWA
+- Skrzydło szybowca drewnianego
+    - podstawowy element: dźwigar (3 typy)
+        - może być dodatkowy dźwigar
+        - konstrukcja wielopodłużnicowa - brak jednego dźwigara, zamiast tego
+          wiele listewek równoległych do skrzydła
+    - krawędź natarcia + spływu
+    - żeberka
+    - lotki (mogą byź dzielone, żeby lotki nie klinowały się przy wygięciach
+      skrzydeł)
+        - posiadają swoje dźwigary, krawędź spływu
+        - może mieć krawędź natarcia
+        - przedłużenia żeberek
+        - może być kryte płótnem (na ogół w drewnianych szybowcach), również
+          sklejką
+- Skrzydło szybowca kompozytowego
+    - robione w foremniku
+    - brak żeberek, konstrukcja skorupowa
+    - krawędź natarcia i spływu tworzą spoiny klejowe między górną a
+      wolną powierzchnią skrzydła
+- Statecznik
+    - Rodzaje
+        - Klasyczne
+        - Krzyżowe
+        - T (klasyczne i płytowe)
+            - najczęstsze ze względu na dobre własności korkociągowe, plus
+              odporne na uszkodzenia przy lądowaniu w wysokiej uprawie
+        - Motylkowe
+- Kadłub
+    - Kratownicowy
+    - 
+    - 
