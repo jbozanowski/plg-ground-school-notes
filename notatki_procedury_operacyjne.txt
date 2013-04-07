@@ -1,0 +1,12 @@
+maciej.drozdz@gmail.com
+    - napisać do Klaudii
+
+Pierwszeństwo
+    - Ustępowanie pierwszeństwa w locie wg typu
+        - (Samolot, Śmigłowiec) ustępuje:
+            - Szybowiec ustępuje:
+                - Lotnia, Paralotnia ustępuje:
+                    - Balon
+    - Przy kursie kolizyjnym z naprzeciwka każdy zmienia kurs w prawo
+    - W pozostałych przypadkach jak na skrzyżowaniu (pierwszeństwo ma ten po
+      prawej)
