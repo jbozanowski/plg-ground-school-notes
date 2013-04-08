@@ -178,3 +178,183 @@ USTAWA "PRAWO LOTNICZE"
                 - cudzoziemca ze stałym pobytem na terytorium Polski
         - Art. 45
             - Dział dot. zdatności statków powietrznych do lotu
+
+    - Dział 4 - Żegluga powietrzna
+        - Art. 119
+            - Dostęp do przestrzeni powietrznej
+                - "Polska przestrzeń powietrzna jest dostępna na równych
+                  prawach dla wszystkich jej użytkowników"
+        - Art. 120
+            - Podział na przestrzeń kontrolowaną i niekontrolowaną
+            - Ograniczenia przestrzeni lotniczych
+        - Art. 121
+            - Rodzaje służb lotniczych
+                - Pierwsza grupa:
+                    - Służba kontroli ruchu lotniczego
+                    - Służba informacji powietrznej
+                    - Służba alarmowa
+                        - Aktywowana przez dwie poprzednie, zbiera od nich
+                          informacje o np. niezłaszającym się zgodnie z planem
+                          locie
+                - Druga grupa
+                    - Służba informacji lotniczej
+                        - AIS (Air Information Service)
+                    - Służba meteorologiczna
+                    - Służba poszukiwania i ratownictwa
+        - Art. 122
+            - Zobowiązanie do przestrzegania poleceń służb ruchu lotniczego
+              przez użytkownika polskiej przestrzeni powietrznej.
+        - Art. 123
+            - Zakaz lotów próbnych, akrobacyjnych i pokazów lotniczych nad
+              osiedlami i innymi skupiskami ludności
+                - Wyjątki: do wysokości nie niżej niż 300 m jeśli w strefie
+                  lotniska
+                    - jeśli oddalona od lotniska, to nie mniej niż 500 m
+                - Strefa pokazów: TRA-25
+                    - Temporary Reserved Area
+                    - Może funcjonować wielu użytkowników
+                - TSA45
+                    - Temporary Segregated Area
+                    - Może funkcjonować tylko jeden użytkownik 
+            - Zakaz zrzutów ze statków powietrznych
+        - Art. 124
+            - Zakaz wykonywania lotów statków z napędem nad obszarami parków
+              narodowych i rezerwatów przyrody
+                - Jeżeli park narodowy lub rezerwat ma szerokość większą
+                  niż 3600 m, to minimalna wysokość przelotu wynosi 1000 m.
+        - Art. 125
+            - Zakaz używania znaków i sygnałów obowiązujących w ruchu lotniczym
+              do celów nie związanych z tym ruchem.
+            - Zakaz używania urządzeń radiowych w pasmach lotniczych przez
+              osoby nieuprawnione.
+- Klasyfikacja przestrzeni powietrznej
+    - Rys. 54
+    - Przestrzeń kontrolowana - przestrzeń klasy C
+    - Przestrzeń niekontrolowana - przestrzeń klasy G
+    - Co reguluje klasyfikacja:
+        - Dopuszczalne rodzaje lotów
+        - Komu jest zapeniana służba
+        - Jaki rodzaj służby jest zapeniany
+        - Jakie są ograniczenia prędkości
+        - Czy jest wymagana łączność radiowa
+        - Czy jest konieczność uzyskania zezwolenia służby ruchu
+          lotniczego
+    - Przykład dla przestrzeni klasy G:
+        - W lotach VFR służba jest zapewniana wszystkim w obrębie Warszawy,
+          natomiast w promieniu ok. 70 km obowiązkowe jest nawiązanie łączności
+          radiowej ze służbą informacji.
+        - W obszarze przestrzeni niekontrolowanej obowiązuje służba informacji
+          powietrznej.
+        - Prędkość graniczna: 250 KT.
+        - Wymaganie łączności radiowej: w strefie ogólnie nie, ale w obszarze
+          Warszawy już tak.
+        - Konieczność uzyskania zezwolenia: brak.
+    - Przestrzeń klasy C:
+        - Można zarówno IFR lub VFR
+        - Służba zapewniona wszystkim statkom powietrznym (musi jednak być
+          złożony plan lotu)
+        - Służba kontroli ruchu dla lotów IFR, dla VFR informacja, oraz radar
+          dla uniknięcia kolizji.
+        - Ograniczenie prędkości 250 KT
+        - Wymagana ciągła, dwukierukowa łączność radiowa
+        - Konieczność uzyskania zezwolenia (akceptacja planu lotu)
+
+- Wypadki lotnicze:
+    - Trzy klasy zdarzeń, od najmniej poważnych:
+        - Incydent
+        - Poważny incydent
+        - Wypadek
+    - Art. 134. ustęp 2.
+    - Komisja Badania Wypadków Lotniczych nie orzeka o winie, formułuje jedynie
+      wnioski.
+    - Zgłoszenie incydentu musi nastąpić do 72 h od wystąpienia zdarzenia
+
+Ograniczenia przestrzeni lotniczych:
+    - Ograniczenia lotów na czas dłuższy niż 3 miesiące i na czas
+      do 3 miesięcy zostały wydane w Rozporządzeniu z 9
+      października 2003 roku, Dziennik Ustaw nr 183.
+    - do 3 miesięcy
+        - np. ćwiczenia wojskowe, święta, etc.
+    - powyżej 3 miesięcy
+        - ograniczenia co do minimalnej wysokości lotu
+    - Ograniczenia dotyczą zwartej zabudowy (a nie granic
+      administracyjnych)
+    - Wysokości zależą od gęstości zaludnienia:
+        - 25 - 50 tys. - 500 m
+        - 50 - 100 tys. - 1000 m
+        - pow. 100 tys. - 1500 m
+        - W-wa - 70 FL/2150 m
+            - Mapy lotnicze mają oznaczenia co do liczby ludności
+              miast.
+    - Minimalne wysokości:
+        - nad terenem otwartym: 150 m
+        - osiedla: 300 m
+    - Organizator ma uzgodnić z AIS i opublikować w AIP
+      ograniczenia obszaru.
+        - żółte karty
+    - Publikacja musi się ukazać z wyprzedzeniem 42 dni.
+    - Ograniczenia przekraczania prędkości dźwięku
+        - ogólny zakaz poniżej FL 470
+        - EP R1
+            - absolutny zakaz przekraczania prędkości dźwięku w obszarze
+              Warszawy, od ziemi do nieskończoności
+    - Strefy ograniczeń:
+        - Rodzaje
+            - P - (prohibited) - zakazane
+                - na dłuższy okres czasu
+            - R - (restricted) - ograniczone
+                - na dłuższy okres czasu
+            - D - (dangerous) - niebezpieczne
+                - zwykle do 3 miesiący
+        - Przykładowo:
+            - EP R12 (EP = "Europe Poland") - nad Parkiem Kampinoskim
+                - 1000 m AGL / GND
+                    - od ziemi do 1000 m nad poziomem ziemi
+            - EP D30
+                - 9000 m AMSL / GND
+                    - od ziemi do 9000 m nad średnim poziomem morza
+        - Ograniczenia nie dotyczą:
+            - statków lotniczych bazujjących w tych rejonach
+            - lotów wykonywanych zgodnie z procedurami (odlotowymi, dolotowymi)
+            - lotów wykonywanych w celu udzielenia pomocy, ratowniczych,
+              zapewnienia porządku publicznego
+    - Podprzestrzenie występujące w kontrolowanych i niekontrolowanych:
+        - TSA
+        - TRA
+        - TFR
+        - ATZ
+            - Aerodrome Traffic Zone (rejon ruchu lotniskowego)
+        - MATZ
+            - Military ATZ
+        - ADIZ
+            - Air Defence Information Zone
+    - Podprzestrzenie występujące w przestrzeniach kontrolowanych:
+        - CTR
+        - TMA
+        - AWY
+
+Połówkowy podział poziomów lotu
+    - 0 - 179 stopni - przyjmujemy nieparzyste poziomy lotu
+    - 180 - 359 stopni - przyjmujemy parzyste poziomy lotu
+
+Aneks drugi:
+    - Rozdział 3, p. 3.1.1
+        - Statku powietrznego nie należy prowadzić w sposób niedbały,
+          nierozważny lub zagrażający życiu lub mieniu
+    - Loty grupowe (lot szybkiem)
+        - nie powinny, chyba że dowódcy umówią się
+        - żeby zakwalifikować jako l.g.:
+            - odległości między statkami powietrznymi nie przekraczają 0.5
+              mili, a różnice w poziomach lotu nie są większe niż 100 ft 
+    - Zapobieganie kolizjom
+    - p. 3.2.5
+        - Pięć zasad poruszania się statku powietrzengo na lotnisku i w
+          powietrzu
+            - Obserwować ruch lotniczy w celu uniknięcia kolizji
+            - Dostosować się do ruchu innych statków powietrznych (w pobliżu
+              lotniska)
+            - Wykonywać wszystkie zakręty w lewo, chyba że są instrukcje
+              inaczej (np. znaki na lotnisku)
+            - Startować i lądować pod wiatr
+            - Rozpoczytać rozbieg albo lądowanie z wykorzystaniem pełnej
+              długości drogi startowej
