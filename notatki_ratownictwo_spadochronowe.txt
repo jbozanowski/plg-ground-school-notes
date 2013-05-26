@@ -1,32 +1,64 @@
 RATOWNICTWO SPADOCHRONOWE
 - p. Tomasz Prusak
 
-- Budowa spadochronu
-    - pilocik
-    - TODO doczytać
+
+- Budowa i właściwości spadochronu
+    - Pilocik
+    - Każdy spadochron jest statkiem powietrznym, zarejestrowanym w
+      Państwowym Rejestrze Statków powietrznych i posiada:
+        - świadectwo rejestracji
+        - świadectwo sprawności technicznej
+        - metrykę
+    - Maksymalny okres użytkowania spadochronu ratowniczego wynosi 18 lat
+        - w tym czasie można wykonać najwyżej 5 skoków
+    - Spadochrony należy przechowywać w temperaturze od 0 do +30 stopni
+      Celsjusza, przy wilgotności powietrza od 40 do 75%.
+
+
 - SP-6
     - Rys. 32
+    - Czasza szczelinowa o powierzchni 43 m^2
     - 20 klinów, 20 linek nośnych
     - Zakres użycia - od 0 do 300 km/h
     - Minimalna wysokość otwarcia 100m
         - przy prędkości 120-300 km/h
     - Skok z balonu/śmigłowca wysokość minimalna 150m
-    - pionowa pr∂kość opadania - nie większa niż 6m/s
+    - pionowa prędkość opadania - nie większa niż 6m/s
     - prędkość pozioma - nie mniejsza niż 2-3 m/s
     - możliwość sterowania za pomocą taśm nośnych
-    - ułożenie do skoku - 120 dni
-    - powierzchnia 43 m^2
+        - obrót o 180 stopni w ciągu 6 s
+        - obrót czaszy w prawo: ściągnąć do wysokości barku prawą tylną taśmę
+          nośną
+        - obrót czasy w lewo: ściągnąć do wysokości barku lewą tylną taśmę
+          nośną
+    - okres wietrzenia
+        - ułożenie do skoku - 120 dni
+
 - ATL 88/90
+    - powierzchnia czaszy 36 m^2
     - 20 klinów, 20 linek nośnych
+    - pionowa prędkość opadania: 5 m/s
+    - skoczek nie cięższy niż 115 kg
+    - obrót o 360 stopni w czasie 8.6 s
     - prędkość użycia 0-330 km/h
-        - do 100m
+        - do 100 m
+    - minimalna wysokość skoku przy prędkości 110 km/h
+        - 100 m
     - ułożenie do skoku - 360 dni
+
 - SK-94
+    - powierzchnia czaszy 51 m^2
+    - 24 linki nośne
+    - 3 szczeliny w czaszy
+    - 2 linki sterownicze
     - zakres użycia 0-270 km/h
     - minimalna wysokość 70m przy 130 km/h
-        - 150m ze śmigłowca
-        - 80m z balonu
-    - ułożenie do skoku - 180 dni
+        - 150 m ze śmigłowca
+        - 80 m z balonu
+    - okres wietrzenia
+        - ułożenie do skoku - 180 dni
+        - ułożenie do magazynowania - 180 dni
+
 - S-4
     - spadochron siedzeniowy
     - bardzo stary
@@ -36,6 +68,8 @@ RATOWNICTWO SPADOCHRONOWE
     - minimalna wysokość 60m przy 100 km/h
         - ze śmigłowca 120m
     - ułożenie do skoku - 120 dni
+
+
 - Przygotowanie spadochronu do lotu
     - plomba (data ważności, pieczątka i podpis układacza)
     - uchwyt (ruchomość linki w wężu osłaniającym)
@@ -46,27 +80,39 @@ RATOWNICTWO SPADOCHRONOWE
     - zapięcie ściągaczy
     - stan zatrzasków przy poduszce plecowej (spadochron typu S-4)
     - dopasowanie uprzęży
+
 - Czynności przed skokiem
     - Odłączyć się od aparatury pokładowej
-    - Odrzucicć osłonkę kabiny lub drzwi
+    - Odrzucić osłonkę kabiny lub drzwi
     - Rozpiąć pasy fotela
     - Wykonać skok
+
+    - w samolocie dodatkowo:
+        - zamknąć dopływ paliwa
+        - wyłączyć iskrowniki
+        - skierować statek powietrzny w obszar niezamieszkany
+
 - Meldunek
     - jeśli jest czas (>3 minuty)
     - podać:
         - rodzaj i typ statku powietrznego
         - jego znaki rejestracyjne
         - przybliżona pozycja
-    - w samolocie dodatkowo:
-        - zamknąć dopływ paliwa
-        - wyłączyć iskrowniki
-        - skierować statek powietrzny w obszar niezamieszkany
     - nadać w ciemno, nie czekać na potwierdzenie
+
 - Metody wykonania skoku ratowniczego
     - Skok przez burtę lub drzwi
-        - lot ustalony poziomy (ślizgowy) i znajduje się >200 m nad terenem
-        - gdy konfiguracja lotu jest nieustalona - niesterowalne ewolucje -
-          wysokość powyżej 300m nad terenem
+        - Warunki
+            - lot ustalony poziomy (ślizgowy) i znajduje się >200 m nad terenem
+            - gdy konfiguracja lotu jest nieustalona - niesterowalne ewolucje -
+              wysokość powyżej 300m nad terenem
+        - Metoda
+            - ze statku, gdzie wsiada się przez burtę
+                - stanąć obiema nogami na fotelu, następnie jedną nogę oprzeć o
+                  burtę i odbić się od niej pod kątem 45 stopni od kadłuba
+            - szybowiec wyczynowy, pozycja leżąca
+                - uchwycic obiema rękami burtę, wyciągnąć nogi spod tablicy
+                  przyrządów
     - Metoda zrywu
         - jesli statek powietrzny będzie na mniejszej wysokości, niż powyżej
         - wystawiamy się na strugi powietrza
@@ -74,12 +120,13 @@ RATOWNICTWO SPADOCHRONOWE
               plecowy)
             - siedzeniem - spadochron s-4 (system siedzeniowy)
         - pozycja embrionalna po wyskoczeniu
-- Metoda przez burtę
-    - ze statku, gdzie wsiada się przez burtę
-        - stanąć obiema nogami na fotelu, następnie jedną nogę oprzeć o burtę i
-          odbić się od niej pod kątem 45 stopni od kadłuba
-    - szybowiec wyczynowy, pozycja leżąca
-        - uchwycic obiema rękami burtę, wyciągnąć nogi spod tablicy przyrządów
+
 - Korkociąg - skakać do środka zwitki
 - 3 sekundy opóźnienia między wyskoczeniem a otwarciem (metoda "121, 122, 123")
 - 10s lotu = 340m wysokości mniej
+
+- Po skoku
+    - Metody gaszenia czaszy:
+        - zabiec czaszę o przynajmniej 90 stopni
+        - ściągać jedną z linek sterowniczych (lewą lub prawą) do czasu
+          opadnięcia czaszy (zgaszenia czaszy)
